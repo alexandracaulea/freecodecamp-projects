@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="description" content="Bertha Benz" />
+    <title>Lazy loading images</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,400i,700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="css/app.css" />
+    <script defer src="js/app.js"></script>
+  </head>
+  <body>
+    <main id="main" class="main">
+      <h1 id="title">Bertha Benz</h1>
+      <h2>A woman moves the world</h2>
+      <article id="tribute-info" class="main__article">
+        <p>
+          Bertha Benz was a German automotive pioneer. She was the business partner and wife of automobile inventor Karl
+          Benz.
+        </p>
+        <p>
+          On 5 August 1888, she was the first person to drive an automobile over a long distance, rigorously field
+          testing the patent Motorwagen, inventing brake pads and solving several practical issues during the 65 miles
+          (105 km) trip. In doing so, she brought the Benz Patent-Motorwagen worldwide attention and got the company its
+          first sales.
+        </p>
+        <h3>The Patent Motor Car</h3>
+        <p>
+          In 1886, Benz presented the Patent-Motorwagen automobile to the world. Within the decade, 25 vehicles had been
+          built. With cutting-edge bicycle constructions, the Model I was the original Patent Motor Car and the world's
+          first automobile.
+        </p>
+        <figure>
+          <img data-lazy="img/patent-motorcar.jpg" alt="patent motorcar" />
+          <figcaption>
+            The Benz Patent-Motorwagen ("patent motorcar"), built in 1885, is widely regarded as the world's first
+            production automobile.
+          </figcaption>
+        </figure>
+        <p>The Model II was converted to a four-wheeler for test purposes, making it the only one of this model.</p>
+        <p>
+          The first Patent Motor Car sold in small production runs was the Model III. It had powered rear wheels with a
+          ringed steel and solid rubber, steerable front wheel. Various options from which to choose were provided for
+          customers, such as seat arrangements and a folding top.
+        </p>
+        <h3>First cross-country automobile journey</h3>
+        <p>
+          On 5 August 1888, 39-year-old Bertha Benz drove from Mannheim to Pforzheim with her sons Richard and Eugen,
+          thirteen and fifteen years old respectively, in a Model III, without telling her husband and without
+          permission of the authorities, thus becoming the first person to drive an automobile a significant distance,
+          though illegally. Before this historic trip, motorized drives were merely very short trials, returning to the
+          point of origin, made with assistance of mechanics. Following wagon tracks, this pioneering tour covered a
+          one-way distance of about 106 km (66 mi).
+        </p>
+        <figure role="group">
+          <figure id="img-div" class="one">
+            <img id="image" data-lazy="img/bertha-benz.jpg" alt="Bertha Benz at age 18, circa 1867" />
+            <figcaption id="img-caption" class="img-figcaption">Bertha Benz at age 18, circa 1867</figcaption>
+          </figure>
+          <figure class="two">
+            <img
+              data-lazy="img/bertha-with-carl-benz.jpg"
+              alt="Bertha Benz with her husband Carl Benz in a
+            Benz-Viktoria, model 1894"
+            />
+            <figcaption>Bertha Benz with her husband Carl Benz in a Benz-Viktoria, model 1894</figcaption>
+          </figure>
+          <figure class="three">
+            <img
+              data-lazy="img/carl-with-family.jpg"
+              alt="Carl Benz with his family driving a Benz Vis-à-Vis and a Benz Victoria"
+            />
+            <figcaption>
+              Carl Benz, his family and Theodor Baron von Liebieg in 1894, on a trip from Mannheim to Gernsheim, driving
+              a Benz Vis-à-Vis and a Benz Victoria
+            </figcaption>
+          </figure>
+        </figure>
+        <p>
+          Although the ostensible purpose of the trip was to visit her mother, Bertha Benz had other motives — to prove
+          to her husband, who had failed to adequately consider marketing his invention, that the automobile in which
+          they both had heavily invested would become a financial success once it was shown to be useful to the general
+          public; and to give her husband the confidence that his constructions had a future.
+        </p>
+        <p>
+          She left Mannheim around dawn, solving numerous problems along the way. Bertha demonstrated her significant
+          technical capabilities on this journey. With no fuel tank and only a 4.5-litre supply of petrol in the
+          carburetor, she had to find ligroin, the petroleum solvent needed for the car to run. It was only available at
+          apothecary shops, so she stopped in Wiesloch at the city pharmacy to purchase the fuel. At the time, petrol
+          and other fuels could only be bought from chemists, and so this is how the chemist in Wiesloch became the
+          first fuel station in the world.
+        </p>
+        <p>
+          She cleaned a blocked fuel line with her hat pin and used her garter as insulation material. A blacksmith had
+          to help mend a chain at one point. When the wooden brakes began to fail, Benz visited a cobbler to install
+          leather, making the world's first pair of brake pads. An evaporative cooling system was employed to cool the
+          engine, making water supply a big worry along the trip. The trio added water to their supply every time they
+          stopped. The car's two gears were not enough to surmount uphill inclines and Eugen and Richard often had to
+          push the vehicle up steep roads. Benz reached Pforzheim somewhat after dusk, notifying her husband of her
+          successful journey by telegram. She drove back to Mannheim several days later.
+        </p>
+        <p>
+          Karl and Bertha Benz 1925 — Zenodot Verlagsges. mbH The novel trip received a great deal of publicity, as she
+          had sought. The drive was a key event in the technical development of the automobile. The pioneering couple
+          introduced several improvements after Bertha's experiences. She reported everything that had happened along
+          the way and made important suggestions, such as the introduction of an additional gear for climbing hills and
+          brake linings to improve brake-power. Her trip proved to the burgeoning automotive industry that test drives
+          were essential to their business.
+        </p>
+      </article>
+    </main>
+    <footer>
+      <p class="footer">
+        If you have time, you should read more about her on
+        <a id="tribute-link" href="https://en.wikipedia.org/wiki/Bertha_Benz" target="_blank" rel="noopener"
+          >Wikipedia</a
+        >.
+      </p>
+    </footer>
+  </body>
+</html>
