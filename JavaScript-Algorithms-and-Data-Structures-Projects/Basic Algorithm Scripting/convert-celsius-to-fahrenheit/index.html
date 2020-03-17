@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Convert Celsius to Fahrenheit</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="app.css" />
+  </head>
+  <body>
+    <h1>Celsius to Fahrenheit Convertor</h1>
+    <p>Enter the degrees you want to convert</p>
+    <div class="convertor">
+      <div class="convertor__celsius">
+        <label for="celsius">Celsius</label>
+        <input type="number" name="celsius" id="celsius" class="convertor__input" value="" />
+      </div>
+      <p class="formula">
+        <span class="formula-text">Formula</span>
+        <span class="formula-value"
+          >(0<b>°C</b> &times; 9<span aria-label="divided by">/</span>5) + 32 = 32<b>°F</b>
+        </span>
+      </p>
+      <div class="convertor__fahrenheit">
+        <label for="fahrenheit">Fahrenheit</label>
+        <input type="number" name="fahrenheit" id="fahrenheit" class="convertor__input" value="" />
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
