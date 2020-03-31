@@ -1,3 +1,4 @@
+@charset "UTF-8";
 *,
 *:before,
 *:after {
@@ -62,38 +63,33 @@ a {
   padding: 10px 0;
   display: inline-block;
   font-size: 1rem;
-
-  &.current {
-    color: #90007f;
-    font-weight: bold;
-  }
-
-  &:hover {
-    color: #90007f;
-  }
+}
+.nav-link.current {
+  color: #90007f;
+  font-weight: bold;
+}
+.nav-link:hover {
+  color: #90007f;
 }
 
-.nav-open {
-  .nav-toggle {
-    position: fixed;
-  }
-  .nav__list {
-    background-color: #fcfcfc;
-    transform: translateX(0);
-    box-shadow: 0 1px 2px 0 rgba(60, 64, 67, 0.3), 0 2px 6px 2px rgba(60, 64, 67, 0.15);
-    min-height: 100%;
-    overflow-y: auto;
-  }
-  .hamburger {
-    transform: rotate(0.625turn);
-
-    &:before {
-      transform: rotate(90deg) translateX(12px);
-    }
-    &:after {
-      opacity: 0;
-    }
-  }
+.nav-open .nav-toggle {
+  position: fixed;
+}
+.nav-open .nav__list {
+  background-color: #fcfcfc;
+  transform: translateX(0);
+  box-shadow: 0 1px 2px 0 rgba(60, 64, 67, 0.3), 0 2px 6px 2px rgba(60, 64, 67, 0.15);
+  min-height: 100%;
+  overflow-y: auto;
+}
+.nav-open .hamburger {
+  transform: rotate(0.625turn);
+}
+.nav-open .hamburger:before {
+  transform: rotate(90deg) translateX(12px);
+}
+.nav-open .hamburger:after {
+  opacity: 0;
 }
 
 .nav-toggle {
@@ -119,25 +115,21 @@ a {
   background-color: #5d5b6a;
   border-radius: 1em;
   transition: transform 0.3s ease-out;
-
-  &:before,
-  &:after {
-    content: "";
-    position: absolute;
-    width: inherit;
-    height: inherit;
-    background-color: #5d5b6a;
-    border-radius: inherit;
-    left: 0px;
-  }
-
-  &:before {
-    top: -12px;
-  }
-
-  &:after {
-    top: 10px;
-  }
+}
+.hamburger:before, .hamburger:after {
+  content: "";
+  position: absolute;
+  width: inherit;
+  height: inherit;
+  background-color: #5d5b6a;
+  border-radius: inherit;
+  left: 0px;
+}
+.hamburger:before {
+  top: -12px;
+}
+.hamburger:after {
+  top: 10px;
 }
 
 .overlay-toggle {
@@ -164,24 +156,23 @@ section {
   cursor: help;
   --clr-light: hsla(230, 33%, 53%, 0.2);
   border-bottom: 2px solid var(--clr-light);
-
-  &:hover {
-    border-bottom-color: var(--clr-blue);
-    background-color: var(--clr-light);
-  }
-  &:active {
-    border-bottom-style: dashed;
-  }
+}
+.tooltip:hover {
+  border-bottom-color: var(--clr-blue);
+  background-color: var(--clr-light);
+}
+.tooltip:active {
+  border-bottom-style: dashed;
 }
 
 .external-link {
   color: var(--clr-blue);
-  &:hover {
-    border-bottom: 2px solid var(--clr-blue);
-  }
-  &:active {
-    border-bottom-style: dashed;
-  }
+}
+.external-link:hover {
+  border-bottom: 2px solid var(--clr-blue);
+}
+.external-link:active {
+  border-bottom-style: dashed;
 }
 
 .highlight {
@@ -189,7 +180,7 @@ section {
   padding: 0.5rem;
   font-size: 1rem;
   border-left: 3px solid #bbe1fa;
-  background-color: hsla(204, 86%, 86%, 0.286);
+  background-color: rgba(189, 225, 250, 0.286);
 }
 
 .language-js {
@@ -204,83 +195,66 @@ code {
   background-color: rgba(32, 148, 243, 0.1);
 }
 
-article {
-  ul {
-    list-style-type: none;
-  }
-
-  li:before {
-    content: "\2022";
-    display: inline-block;
-    margin-left: -1rem;
-    margin-right: 7px;
-    font-size: 11px;
-    font-weight: bold;
-    color: var(--clr-dark-grey);
-  }
+article ul {
+  list-style-type: none;
+}
+article li:before {
+  content: "•";
+  display: inline-block;
+  margin-left: -1rem;
+  margin-right: 7px;
+  font-size: 11px;
+  font-weight: bold;
+  color: var(--clr-dark-grey);
 }
 
 .documentation__table {
   margin: 2.5rem 0;
   border-spacing: 0;
-
-  th {
-    padding: 0 0 10px 16px;
-    color: #6a6a83;
-  }
-
-  td {
-    padding: 16px;
-  }
-
-  th {
-    font-size: 1rem;
-    text-align: left;
-  }
-
-  tbody tr:nth-child(odd) td {
-    background-color: rgba(122, 122, 140, 0.035);
-  }
-
-  tbody tr td {
-    border-top: 1px solid var(--clr-lighter);
-  }
-
-  tbody tr:first-child td:first-child {
-    border-top-left-radius: 4px;
-  }
-
-  tbody tr:first-child td:last-child {
-    border-top-right-radius: 4px;
-  }
-
-  tbody tr:last-child td:first-child {
-    border-bottom-left-radius: 4px;
-  }
-
-  tbody tr:last-child td:last-child {
-    border-bottom-right-radius: 4px;
-  }
-
-  tbody tr:nth-child(odd) td:first-child {
-    border-left: 1px solid var(--clr-lighter);
-  }
-
-  tbody tr:nth-child(even) td:first-child {
-    border-left: 1px solid var(--clr-lighter);
-  }
-
-  tbody tr:nth-child(odd) td:last-child {
-    border-right: 1px solid var(--clr-lighter);
-  }
-
-  tbody tr:nth-child(even) td:last-child {
-    border-right: 1px solid var(--clr-lighter);
-  }
-
-  tbody tr:last-child td {
-    border-bottom: 1px solid var(--clr-lighter);
-  }
+}
+.documentation__table th {
+  padding: 0 0 10px 16px;
+  color: #6a6a83;
+}
+.documentation__table td {
+  padding: 16px;
+}
+.documentation__table th {
+  font-size: 1rem;
+  text-align: left;
+}
+.documentation__table tbody tr:nth-child(odd) td {
+  background-color: rgba(122, 122, 140, 0.035);
+}
+.documentation__table tbody tr td {
+  border-top: 1px solid var(--clr-lighter);
+}
+.documentation__table tbody tr:first-child td:first-child {
+  border-top-left-radius: 4px;
+}
+.documentation__table tbody tr:first-child td:last-child {
+  border-top-right-radius: 4px;
+}
+.documentation__table tbody tr:last-child td:first-child {
+  border-bottom-left-radius: 4px;
+}
+.documentation__table tbody tr:last-child td:last-child {
+  border-bottom-right-radius: 4px;
+}
+.documentation__table tbody tr:nth-child(odd) td:first-child {
+  border-left: 1px solid var(--clr-lighter);
+}
+.documentation__table tbody tr:nth-child(even) td:first-child {
+  border-left: 1px solid var(--clr-lighter);
+}
+.documentation__table tbody tr:nth-child(odd) td:last-child {
+  border-right: 1px solid var(--clr-lighter);
+}
+.documentation__table tbody tr:nth-child(even) td:last-child {
+  border-right: 1px solid var(--clr-lighter);
+}
+.documentation__table tbody tr:last-child td {
+  border-bottom: 1px solid var(--clr-lighter);
 }
 
 .footer {
@@ -303,7 +277,6 @@ article {
     margin: 0 auto;
   }
 }
-
 @media (min-width: 1450px) {
   .header {
     position: fixed;
@@ -318,6 +291,7 @@ article {
     line-height: 1.5;
     margin-top: 1.5rem;
   }
+
   .nav-toggle {
     display: none;
   }
