@@ -1,0 +1,1441 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alexandra Caulea</title>
+    <meta name="language" content="en" />
+    <meta name="description" content="Aspiring Frond End Developer from Bucharest, Romania." />
+    <meta name="keywords" content="front-end web developer, HTML, CSS, JavaScript, Bucharest, Romania" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="css/app.css" />
+    <link rel="icon" type="image/png" href="img/favicons/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="img/favicons/favicon-16x16.png" sizes="16x16" />
+    <link rel="shortcut icon" href="img/favicons/favicon.ico" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="site-header-container">
+        <a href="https://www.alexandracaulea.com/">
+          <svg
+            class="logo"
+            focusable="false"
+            aria-label="Alexandra logo"
+            width="157"
+            height="37"
+            viewBox="0 0 157 37"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <use xlink:href="#logo-icon"></use>
+          </svg>
+        </a>
+        <button
+          class="menu-toggle"
+          id="menu-toggle"
+          aria-expanded="false"
+          aria-controls="navbar"
+          aria-label="Toggle navigation"
+        >
+          <span class="screen-reader-text">Menu</span>
+          <svg
+            aria-hidden="true"
+            width="30"
+            height="29"
+            viewBox="0 0 30 29"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <rect class="line-1" width="30" height="5" rx="2.5" fill="var(--color--primary)" />
+            <rect class="line-2" y="12" width="30" height="5" rx="2.5" fill="var(--color--primary)" />
+            <rect class="line-3" y="24" width="30" height="5" rx="2.5" fill="var(--color--primary)" />
+          </svg>
+        </button>
+      </div>
+      <nav class="nav" id="navbar">
+        <ul class="nav__list">
+          <li class="nav__item"><a class="nav__link" href="#welcome-section">About</a></li>
+          <li class="nav__item"><a class="nav__link" href="#projects">Projects</a></li>
+          <li class="nav__item"><a class="nav__link" href="#contact">Contact</a></li>
+          <li class="nav__item">
+            <a
+              class="nav__link"
+              aria-label="Download Alexandra's Resume"
+              download
+              href="downloads/Alexandra-Caulea-Resume.pdf"
+              >Resume</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="intro" id="welcome-section">
+        <figure class="intro__figure">
+          <img
+            class="intro__img"
+            src="img/alexandra-photo.jpg"
+            data-srcgif="img/alexandra-gif.gif"
+            data-srcimg="img/alexandra-photo.jpg"
+            alt="Alexandra Caulea"
+          />
+          <svg
+            aria-hidden="true"
+            class="shape-tablet-right"
+            width="151"
+            height="340"
+            viewBox="0 0 151 340"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g filter="url(#filter5)"><path fill="#d15a7c" d="M34 1h112v330H34z" /></g>
+            <g filter="url(#filter6)"><path fill="#f7d695" d="M5 192h120v120H5z" /></g>
+            <g filter="url(#filter7)" fill="var(--purple)">
+              <circle cx="49" cy="247" r="4" />
+              <circle cx="94.5" cy="252.5" r="4.5" />
+              <ellipse cx="26.5" cy="254" rx="4.5" ry="4" />
+              <ellipse cx="72" cy="255.5" rx="4" ry="4.5" />
+            </g>
+            <defs>
+              <filter
+                id="filter5"
+                x="29"
+                y="0"
+                width="122"
+                height="340"
+                filterUnits="userSpaceOnUse"
+                color-interpolation-filters="sRGB"
+              >
+                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                <feColorMatrix in="SourceAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />
+                <feOffset dy="4" />
+                <feGaussianBlur stdDeviation="2.5" />
+                <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.12 0" />
+                <feBlend in2="BackgroundImageFix" result="effect1_dropShadow" />
+                <feBlend in="SourceGraphic" in2="effect1_dropShadow" result="shape" />
+              </filter>
+              <filter
+                id="filter6"
+                x="0"
+                y="191"
+                width="130"
+                height="130"
+                filterUnits="userSpaceOnUse"
+                color-interpolation-filters="sRGB"
+              >
+                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                <feColorMatrix in="SourceAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />
+                <feOffset dy="4" />
+                <feGaussianBlur stdDeviation="2.5" />
+                <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.12 0" />
+                <feBlend in2="BackgroundImageFix" result="effect1_dropShadow" />
+                <feBlend in="SourceGraphic" in2="effect1_dropShadow" result="shape" />
+              </filter>
+              <filter
+                id="filter7"
+                x="17"
+                y="242"
+                width="87"
+                height="27"
+                filterUnits="userSpaceOnUse"
+                color-interpolation-filters="sRGB"
+              >
+                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                <feColorMatrix in="SourceAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />
+                <feOffset dy="4" />
+                <feGaussianBlur stdDeviation="2.5" />
+                <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.12 0" />
+                <feBlend in2="BackgroundImageFix" result="effect1_dropShadow" />
+                <feBlend in="SourceGraphic" in2="effect1_dropShadow" result="shape" />
+              </filter>
+            </defs>
+          </svg>
+          <svg
+            class="shape-desktop-center"
+            aria-hidden="true"
+            width="182"
+            height="340"
+            viewBox="0 0 182 340"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g filter="url(#filter8)"><path fill="#fbf4f9" d="M65 1h112v330H65z" /></g>
+            <g filter="url(#filter9)"><path fill="var(--light--blue)" d="M5 166h120v120H5z" /></g>
+            <g filter="url(#filter10)"><circle cx="21.5" cy="99.5" r="5.5" fill="var(--purple)" /></g>
+            <g filter="url(#filter11)"><circle cx="21.5" cy="121.5" r="5.5" fill="var(--purple)" /></g>
+            <g filter="url(#filter12)"><circle cx="21.5" cy="143.5" r="5.5" fill="var(--purple)" /></g>
+            <g filter="url(#filter13)"><circle cx="21.5" cy="165.5" r="5.5" fill="var(--purple)" /></g>
+            <g filter="url(#filter14)"><circle cx="21.5" cy="187.5" r="5.5" fill="var(--purple)" /></g>
+            <g filter="url(#filter15)"><circle cx="109.5" cy="101.5" r="5.5" fill="var(--purple)" /></g>
+            <g filter="url(#filter16)"><circle cx="109.5" cy="123.5" r="5.5" fill="var(--purple)" /></g>
+            <g filter="url(#filter17)"><circle cx="109.5" cy="145.5" r="5.5" fill="var(--purple)" /></g>
+            <g filter="url(#filter18)"><circle cx="109.5" cy="167.5" r="5.5" fill="var(--purple)" /></g>
+            <g filter="url(#filter19)"><circle cx="109.5" cy="189.5" r="5.5" fill="var(--purple)" /></g>
+            <g filter="url(#filter20)"><circle cx="80.5" cy="103.5" r="5.5" fill="var(--purple)" /></g>
+            <g filter="url(#filter21)"><circle cx="80.5" cy="125.5" r="5.5" fill="var(--purple)" /></g>
+            <g filter="url(#filter22)"><circle cx="80.5" cy="147.5" r="5.5" fill="var(--purple)" /></g>
+            <g filter="url(#filter23)"><circle cx="80.5" cy="169.5" r="5.5" fill="var(--purple)" /></g>
+            <g filter="url(#filter24)"><circle cx="80.5" cy="191.5" r="5.5" fill="var(--purple)" /></g>
+            <g filter="url(#filter25)"><circle cx="50.5" cy="88.5" r="5.5" fill="var(--purple)" /></g>
+            <g filter="url(#filter26)"><circle cx="50.5" cy="110.5" r="5.5" fill="var(--purple)" /></g>
+            <g filter="url(#filter27)"><circle cx="50.5" cy="132.5" r="5.5" fill="var(--purple)" /></g>
+            <g filter="url(#filter28)"><circle cx="50.5" cy="154.5" r="5.5" fill="var(--purple)" /></g>
+            <g filter="url(#filter29)"><circle cx="50.5" cy="176.5" r="5.5" fill="var(--purple)" /></g>
+            <g filter="url(#filter30)"><circle cx="50.5" cy="198.5" r="5.5" fill="var(--purple)" /></g>
+            <defs>
+              <filter
+                id="filter8"
+                x="60"
+                y="0"
+                width="122"
+                height="340"
+                filterUnits="userSpaceOnUse"
+                color-interpolation-filters="sRGB"
+              >
+                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                <feColorMatrix in="SourceAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />
+                <feOffset dy="4" />
+                <feGaussianBlur stdDeviation="2.5" />
+                <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.12 0" />
+                <feBlend in2="BackgroundImageFix" result="effect1_dropShadow" />
+                <feBlend in="SourceGraphic" in2="effect1_dropShadow" result="shape" />
+              </filter>
+              <filter
+                id="filter9"
+                x="0"
+                y="165"
+                width="130"
+                height="130"
+                filterUnits="userSpaceOnUse"
+                color-interpolation-filters="sRGB"
+              >
+                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                <feColorMatrix in="SourceAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />
+                <feOffset dy="4" />
+                <feGaussianBlur stdDeviation="2.5" />
+                <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.12 0" />
+                <feBlend in2="BackgroundImageFix" result="effect1_dropShadow" />
+                <feBlend in="SourceGraphic" in2="effect1_dropShadow" result="shape" />
+              </filter>
+              <filter
+                id="filter10"
+                x="11"
+                y="93"
+                width="21"
+                height="21"
+                filterUnits="userSpaceOnUse"
+                color-interpolation-filters="sRGB"
+              >
+                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                <feColorMatrix in="SourceAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />
+                <feOffset dy="4" />
+                <feGaussianBlur stdDeviation="2.5" />
+                <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.12 0" />
+                <feBlend in2="BackgroundImageFix" result="effect1_dropShadow" />
+                <feBlend in="SourceGraphic" in2="effect1_dropShadow" result="shape" />
+              </filter>
+              <filter
+                id="filter11"
+                x="11"
+                y="115"
+                width="21"
+                height="21"
+                filterUnits="userSpaceOnUse"
+                color-interpolation-filters="sRGB"
+              >
+                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                <feColorMatrix in="SourceAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />
+                <feOffset dy="4" />
+                <feGaussianBlur stdDeviation="2.5" />
+                <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.12 0" />
+                <feBlend in2="BackgroundImageFix" result="effect1_dropShadow" />
+                <feBlend in="SourceGraphic" in2="effect1_dropShadow" result="shape" />
+              </filter>
+              <filter
+                id="filter12"
+                x="11"
+                y="137"
+                width="21"
+                height="21"
+                filterUnits="userSpaceOnUse"
+                color-interpolation-filters="sRGB"
+              >
+                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                <feColorMatrix in="SourceAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />
+                <feOffset dy="4" />
+                <feGaussianBlur stdDeviation="2.5" />
+                <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.12 0" />
+                <feBlend in2="BackgroundImageFix" result="effect1_dropShadow" />
+                <feBlend in="SourceGraphic" in2="effect1_dropShadow" result="shape" />
+              </filter>
+              <filter
+                id="filter13"
+                x="11"
+                y="159"
+                width="21"
+                height="21"
+                filterUnits="userSpaceOnUse"
+                color-interpolation-filters="sRGB"
+              >
+                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                <feColorMatrix in="SourceAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />
+                <feOffset dy="4" />
+                <feGaussianBlur stdDeviation="2.5" />
+                <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.12 0" />
+                <feBlend in2="BackgroundImageFix" result="effect1_dropShadow" />
+                <feBlend in="SourceGraphic" in2="effect1_dropShadow" result="shape" />
+              </filter>
+              <filter
+                id="filter14"
+                x="11"
+                y="181"
+                width="21"
+                height="21"
+                filterUnits="userSpaceOnUse"
+                color-interpolation-filters="sRGB"
+              >
+                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                <feColorMatrix in="SourceAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />
+                <feOffset dy="4" />
+                <feGaussianBlur stdDeviation="2.5" />
+                <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.12 0" />
+                <feBlend in2="BackgroundImageFix" result="effect1_dropShadow" />
+                <feBlend in="SourceGraphic" in2="effect1_dropShadow" result="shape" />
+              </filter>
+              <filter
+                id="filter15"
+                x="99"
+                y="95"
+                width="21"
+                height="21"
+                filterUnits="userSpaceOnUse"
+                color-interpolation-filters="sRGB"
+              >
+                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                <feColorMatrix in="SourceAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />
+                <feOffset dy="4" />
+                <feGaussianBlur stdDeviation="2.5" />
+                <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.12 0" />
+                <feBlend in2="BackgroundImageFix" result="effect1_dropShadow" />
+                <feBlend in="SourceGraphic" in2="effect1_dropShadow" result="shape" />
+              </filter>
+              <filter
+                id="filter16"
+                x="99"
+                y="117"
+                width="21"
+                height="21"
+                filterUnits="userSpaceOnUse"
+                color-interpolation-filters="sRGB"
+              >
+                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                <feColorMatrix in="SourceAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />
+                <feOffset dy="4" />
+                <feGaussianBlur stdDeviation="2.5" />
+                <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.12 0" />
+                <feBlend in2="BackgroundImageFix" result="effect1_dropShadow" />
+                <feBlend in="SourceGraphic" in2="effect1_dropShadow" result="shape" />
+              </filter>
+              <filter
+                id="filter17"
+                x="99"
+                y="139"
+                width="21"
+                height="21"
+                filterUnits="userSpaceOnUse"
+                color-interpolation-filters="sRGB"
+              >
+                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                <feColorMatrix in="SourceAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />
+                <feOffset dy="4" />
+                <feGaussianBlur stdDeviation="2.5" />
+                <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.12 0" />
+                <feBlend in2="BackgroundImageFix" result="effect1_dropShadow" />
+                <feBlend in="SourceGraphic" in2="effect1_dropShadow" result="shape" />
+              </filter>
+              <filter
+                id="filter18"
+                x="99"
+                y="161"
+                width="21"
+                height="21"
+                filterUnits="userSpaceOnUse"
+                color-interpolation-filters="sRGB"
+              >
+                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                <feColorMatrix in="SourceAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />
+                <feOffset dy="4" />
+                <feGaussianBlur stdDeviation="2.5" />
+                <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.12 0" />
+                <feBlend in2="BackgroundImageFix" result="effect1_dropShadow" />
+                <feBlend in="SourceGraphic" in2="effect1_dropShadow" result="shape" />
+              </filter>
+              <filter
+                id="filter19"
+                x="99"
+                y="183"
+                width="21"
+                height="21"
+                filterUnits="userSpaceOnUse"
+                color-interpolation-filters="sRGB"
+              >
+                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                <feColorMatrix in="SourceAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />
+                <feOffset dy="4" />
+                <feGaussianBlur stdDeviation="2.5" />
+                <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.12 0" />
+                <feBlend in2="BackgroundImageFix" result="effect1_dropShadow" />
+                <feBlend in="SourceGraphic" in2="effect1_dropShadow" result="shape" />
+              </filter>
+              <filter
+                id="filter20"
+                x="70"
+                y="97"
+                width="21"
+                height="21"
+                filterUnits="userSpaceOnUse"
+                color-interpolation-filters="sRGB"
+              >
+                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                <feColorMatrix in="SourceAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />
+                <feOffset dy="4" />
+                <feGaussianBlur stdDeviation="2.5" />
+                <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.12 0" />
+                <feBlend in2="BackgroundImageFix" result="effect1_dropShadow" />
+                <feBlend in="SourceGraphic" in2="effect1_dropShadow" result="shape" />
+              </filter>
+              <filter
+                id="filter21"
+                x="70"
+                y="119"
+                width="21"
+                height="21"
+                filterUnits="userSpaceOnUse"
+                color-interpolation-filters="sRGB"
+              >
+                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                <feColorMatrix in="SourceAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />
+                <feOffset dy="4" />
+                <feGaussianBlur stdDeviation="2.5" />
+                <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.12 0" />
+                <feBlend in2="BackgroundImageFix" result="effect1_dropShadow" />
+                <feBlend in="SourceGraphic" in2="effect1_dropShadow" result="shape" />
+              </filter>
+              <filter
+                id="filter22"
+                x="70"
+                y="141"
+                width="21"
+                height="21"
+                filterUnits="userSpaceOnUse"
+                color-interpolation-filters="sRGB"
+              >
+                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                <feColorMatrix in="SourceAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />
+                <feOffset dy="4" />
+                <feGaussianBlur stdDeviation="2.5" />
+                <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.12 0" />
+                <feBlend in2="BackgroundImageFix" result="effect1_dropShadow" />
+                <feBlend in="SourceGraphic" in2="effect1_dropShadow" result="shape" />
+              </filter>
+              <filter
+                id="filter23"
+                x="70"
+                y="163"
+                width="21"
+                height="21"
+                filterUnits="userSpaceOnUse"
+                color-interpolation-filters="sRGB"
+              >
+                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                <feColorMatrix in="SourceAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />
+                <feOffset dy="4" />
+                <feGaussianBlur stdDeviation="2.5" />
+                <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.12 0" />
+                <feBlend in2="BackgroundImageFix" result="effect1_dropShadow" />
+                <feBlend in="SourceGraphic" in2="effect1_dropShadow" result="shape" />
+              </filter>
+              <filter
+                id="filter24"
+                x="70"
+                y="185"
+                width="21"
+                height="21"
+                filterUnits="userSpaceOnUse"
+                color-interpolation-filters="sRGB"
+              >
+                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                <feColorMatrix in="SourceAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />
+                <feOffset dy="4" />
+                <feGaussianBlur stdDeviation="2.5" />
+                <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.12 0" />
+                <feBlend in2="BackgroundImageFix" result="effect1_dropShadow" />
+                <feBlend in="SourceGraphic" in2="effect1_dropShadow" result="shape" />
+              </filter>
+              <filter
+                id="filter25"
+                x="40"
+                y="82"
+                width="21"
+                height="21"
+                filterUnits="userSpaceOnUse"
+                color-interpolation-filters="sRGB"
+              >
+                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                <feColorMatrix in="SourceAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />
+                <feOffset dy="4" />
+                <feGaussianBlur stdDeviation="2.5" />
+                <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.12 0" />
+                <feBlend in2="BackgroundImageFix" result="effect1_dropShadow" />
+                <feBlend in="SourceGraphic" in2="effect1_dropShadow" result="shape" />
+              </filter>
+              <filter
+                id="filter26"
+                x="40"
+                y="104"
+                width="21"
+                height="21"
+                filterUnits="userSpaceOnUse"
+                color-interpolation-filters="sRGB"
+              >
+                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                <feColorMatrix in="SourceAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />
+                <feOffset dy="4" />
+                <feGaussianBlur stdDeviation="2.5" />
+                <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.12 0" />
+                <feBlend in2="BackgroundImageFix" result="effect1_dropShadow" />
+                <feBlend in="SourceGraphic" in2="effect1_dropShadow" result="shape" />
+              </filter>
+              <filter
+                id="filter27"
+                x="40"
+                y="126"
+                width="21"
+                height="21"
+                filterUnits="userSpaceOnUse"
+                color-interpolation-filters="sRGB"
+              >
+                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                <feColorMatrix in="SourceAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />
+                <feOffset dy="4" />
+                <feGaussianBlur stdDeviation="2.5" />
+                <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.12 0" />
+                <feBlend in2="BackgroundImageFix" result="effect1_dropShadow" />
+                <feBlend in="SourceGraphic" in2="effect1_dropShadow" result="shape" />
+              </filter>
+              <filter
+                id="filter28"
+                x="40"
+                y="148"
+                width="21"
+                height="21"
+                filterUnits="userSpaceOnUse"
+                color-interpolation-filters="sRGB"
+              >
+                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                <feColorMatrix in="SourceAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />
+                <feOffset dy="4" />
+                <feGaussianBlur stdDeviation="2.5" />
+                <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.12 0" />
+                <feBlend in2="BackgroundImageFix" result="effect1_dropShadow" />
+                <feBlend in="SourceGraphic" in2="effect1_dropShadow" result="shape" />
+              </filter>
+              <filter
+                id="filter29"
+                x="40"
+                y="170"
+                width="21"
+                height="21"
+                filterUnits="userSpaceOnUse"
+                color-interpolation-filters="sRGB"
+              >
+                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                <feColorMatrix in="SourceAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />
+                <feOffset dy="4" />
+                <feGaussianBlur stdDeviation="2.5" />
+                <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.12 0" />
+                <feBlend in2="BackgroundImageFix" result="effect1_dropShadow" />
+                <feBlend in="SourceGraphic" in2="effect1_dropShadow" result="shape" />
+              </filter>
+              <filter
+                id="filter30"
+                x="40"
+                y="192"
+                width="21"
+                height="21"
+                filterUnits="userSpaceOnUse"
+                color-interpolation-filters="sRGB"
+              >
+                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                <feColorMatrix in="SourceAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />
+                <feOffset dy="4" />
+                <feGaussianBlur stdDeviation="2.5" />
+                <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.12 0" />
+                <feBlend in2="BackgroundImageFix" result="effect1_dropShadow" />
+                <feBlend in="SourceGraphic" in2="effect1_dropShadow" result="shape" />
+              </filter>
+            </defs>
+          </svg>
+          <svg
+            class="shape-desktop-right"
+            aria-hidden="true"
+            width="228"
+            height="304"
+            viewBox="0 0 228 304"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g filter="url(#filter31)"><path fill="#f6e7e6" d="M5 83h167v212H5z" /></g>
+            <g filter="url(#filter32)"><path fill="#f6e5f5" d="M121 1h102v188H121z" /></g>
+            <g filter="url(#filter33)" fill="var(--purple)">
+              <circle cx="77" cy="206" r="4" />
+              <ellipse cx="77" cy="223.5" rx="4" ry="4.5" />
+              <circle cx="122.5" cy="211.5" r="4.5" />
+              <circle cx="122.5" cy="228.5" r="4.5" />
+              <ellipse cx="54.5" cy="213" rx="4.5" ry="4" />
+              <ellipse cx="54.5" cy="230" rx="4.5" ry="4" />
+              <ellipse cx="100" cy="214.5" rx="4" ry="4.5" />
+              <circle cx="100" cy="232" r="4" />
+            </g>
+            <defs>
+              <filter
+                id="filter31"
+                x="0"
+                y="82"
+                width="177"
+                height="222"
+                filterUnits="userSpaceOnUse"
+                color-interpolation-filters="sRGB"
+              >
+                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                <feColorMatrix in="SourceAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />
+                <feOffset dy="4" />
+                <feGaussianBlur stdDeviation="2.5" />
+                <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.12 0" />
+                <feBlend in2="BackgroundImageFix" result="effect1_dropShadow" />
+                <feBlend in="SourceGraphic" in2="effect1_dropShadow" result="shape" />
+              </filter>
+              <filter
+                id="filter32"
+                x="116"
+                y="0"
+                width="112"
+                height="198"
+                filterUnits="userSpaceOnUse"
+                color-interpolation-filters="sRGB"
+              >
+                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                <feColorMatrix in="SourceAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />
+                <feOffset dy="4" />
+                <feGaussianBlur stdDeviation="2.5" />
+                <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.12 0" />
+                <feBlend in2="BackgroundImageFix" result="effect1_dropShadow" />
+                <feBlend in="SourceGraphic" in2="effect1_dropShadow" result="shape" />
+              </filter>
+              <filter
+                id="filter33"
+                x="45"
+                y="201"
+                width="87"
+                height="44"
+                filterUnits="userSpaceOnUse"
+                color-interpolation-filters="sRGB"
+              >
+                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                <feColorMatrix in="SourceAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />
+                <feOffset dy="4" />
+                <feGaussianBlur stdDeviation="2.5" />
+                <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.12 0" />
+                <feBlend in2="BackgroundImageFix" result="effect1_dropShadow" />
+                <feBlend in="SourceGraphic" in2="effect1_dropShadow" result="shape" />
+              </filter>
+            </defs>
+          </svg>
+        </figure>
+        <div class="intro__content">
+          <h1 class="intro__title">Hi there! I’m Alexandra.</h1>
+          <p class="intro__subtitle">I enjoy coding and learning new things.</p>
+          <svg
+            class="shape-mobile-right"
+            aria-hidden="true"
+            width="151"
+            height="340"
+            viewBox="0 0 151 340"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g filter="url(#filter0)"><path fill="var(--light--green)" d="M34 1h112v330H34z" /></g>
+            <g filter="url(#filter1)"><path fill="#ffb6b9" d="M5 192h120v120H5z" /></g>
+            <g filter="url(#filter2)" fill="var(--purple)">
+              <circle cx="49" cy="239" r="4" />
+              <ellipse cx="49" cy="256.5" rx="4" ry="4.5" />
+              <circle cx="94.5" cy="244.5" r="4.5" />
+              <circle cx="94.5" cy="261.5" r="4.5" />
+              <ellipse cx="26.5" cy="246" rx="4.5" ry="4" />
+              <ellipse cx="26.5" cy="263" rx="4.5" ry="4" />
+              <ellipse cx="72" cy="247.5" rx="4" ry="4.5" />
+              <circle cx="72" cy="265" r="4" />
+            </g>
+            <defs>
+              <filter
+                id="filter0"
+                x="29"
+                y="0"
+                width="122"
+                height="340"
+                filterUnits="userSpaceOnUse"
+                color-interpolation-filters="sRGB"
+              >
+                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                <feColorMatrix in="SourceAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />
+                <feOffset dy="4" />
+                <feGaussianBlur stdDeviation="2.5" />
+                <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.12 0" />
+                <feBlend in2="BackgroundImageFix" result="effect1_dropShadow" />
+                <feBlend in="SourceGraphic" in2="effect1_dropShadow" result="shape" />
+              </filter>
+              <filter
+                id="filter1"
+                x="0"
+                y="191"
+                width="130"
+                height="130"
+                filterUnits="userSpaceOnUse"
+                color-interpolation-filters="sRGB"
+              >
+                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                <feColorMatrix in="SourceAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />
+                <feOffset dy="4" />
+                <feGaussianBlur stdDeviation="2.5" />
+                <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.12 0" />
+                <feBlend in2="BackgroundImageFix" result="effect1_dropShadow" />
+                <feBlend in="SourceGraphic" in2="effect1_dropShadow" result="shape" />
+              </filter>
+              <filter
+                id="filter2"
+                x="17"
+                y="234"
+                width="87"
+                height="44"
+                filterUnits="userSpaceOnUse"
+                color-interpolation-filters="sRGB"
+              >
+                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                <feColorMatrix in="SourceAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />
+                <feOffset dy="4" />
+                <feGaussianBlur stdDeviation="2.5" />
+                <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.12 0" />
+                <feBlend in2="BackgroundImageFix" result="effect1_dropShadow" />
+                <feBlend in="SourceGraphic" in2="effect1_dropShadow" result="shape" />
+              </filter>
+            </defs>
+          </svg>
+          <svg
+            class="shape-triangle-left"
+            aria-hidden="true"
+            width="86"
+            height="108"
+            viewBox="0 0 86 108"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g filter="url(#filter4)"><path d="M86 54l-93 53.694V.306L86 54z" fill="#d4ebd0" /></g>
+            <defs>
+              <filter
+                id="filter4"
+                x="-12"
+                y="-.694"
+                width="103"
+                height="117.388"
+                filterUnits="userSpaceOnUse"
+                color-interpolation-filters="sRGB"
+              >
+                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                <feColorMatrix in="SourceAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />
+                <feOffset dy="4" />
+                <feGaussianBlur stdDeviation="2.5" />
+                <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.12 0" />
+                <feBlend in2="BackgroundImageFix" result="effect1_dropShadow" />
+                <feBlend in="SourceGraphic" in2="effect1_dropShadow" result="shape" />
+              </filter>
+            </defs>
+          </svg>
+        </div>
+      </section>
+      <section class="projects" id="projects">
+        <svg
+          aria-hidden="true"
+          width="362"
+          height="169"
+          viewBox="0 0 362 169"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+          style="z-index: -1;"
+        >
+          <use xlink:href="#project-circles"></use>
+        </svg>
+        <h2 class="projects__header">Projects that I built so far</h2>
+        <ul class="projects__list">
+          <li class="project__item project-tile li">
+            <a
+              class="project__link"
+              href="https://codepen.io/alexandracaulea/full/VwLBGOj"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Go to the live example"
+            >
+              <div class="project__img">
+                <img
+                  src="img/placeholder-img.png"
+                  data-src="img/fetching-and-displaying-jobs.png"
+                  class="lazyload"
+                  loading="lazy"
+                  width="400"
+                  height="250"
+                  alt="Screenshot of fetching and displaying jobs project"
+                />
+              </div>
+              <div class="project__divider"></div>
+              <div class="project__information">
+                <h3 class="project__title">Fetching and Displaying Jobs</h3>
+                <p class="project__details">
+                  Allows a user to search and view jobs posted on GitHub. It uses GitHub Jobs API to retrieve data based
+                  on the keywords entered by the user. Built using HTML, CSS and JavaScript. To fetch data I’ve used the
+                  axios library.
+                </p>
+              </div>
+            </a>
+          </li>
+          <li class="project__item project-tile">
+            <a
+              class="project__link"
+              href="https://codepen.io/alexandracaulea/full/YzXdNbY"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div class="project__img">
+                <img
+                  src="img/placeholder-img.png"
+                  data-src="img/fcc-product-survey-form.png"
+                  class="lazyload"
+                  loading="lazy"
+                  width="400"
+                  height="250"
+                  alt="Screenshot of product survey form project"
+                />
+              </div>
+              <div class="project__divider"></div>
+              <div class="project__information">
+                <h3 class="project__title">Product Survey Form</h3>
+                <p class="project__details">
+                  A fully functional and accessible multi step product survey form with progress bar and JavaScript
+                  validation. Built using HTML, CSS and JavaScript.
+                </p>
+              </div>
+            </a>
+          </li>
+          <li class="project__item project-tile">
+            <a
+              class="project__link"
+              href="https://codepen.io/alexandracaulea/full/QWbObOQ"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Go to the live example"
+            >
+              <div class="project__img">
+                <img
+                  src="img/placeholder-img.png"
+                  data-src="img/fcc-product-landing-page.png"
+                  class="lazyload"
+                  loading="lazy"
+                  width="400"
+                  height="250"
+                  alt="Screenshot of product landing page project"
+                />
+              </div>
+              <div class="project__divider"></div>
+              <div class="project__information">
+                <h3 class="project__title">Product Landing Page</h3>
+                <p class="project__details">
+                  A responsive landing page with custom incremental value animation using Intersection Observer API and
+                  a custom video player. Built using HTML, CSS and JavaScript.
+                </p>
+              </div>
+            </a>
+          </li>
+          <li class="project__item project-tile">
+            <a
+              class="project__link"
+              href="https://codepen.io/alexandracaulea/full/rNVKLor"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Go to the live example"
+            >
+              <div class="project__img">
+                <img
+                  src="img/placeholder-img.png"
+                  data-src="img/fcc-celsius-to-fahrenheit-convertor.png"
+                  class="lazyload"
+                  loading="lazy"
+                  width="400"
+                  height="250"
+                  alt="Screenshot of celsius to fahrenheit convertor project"
+                />
+              </div>
+              <div class="project__divider"></div>
+              <div class="project__information">
+                <h3 class="project__title">Celsius to Fahrenheit Convertor</h3>
+                <p class="project__details">
+                  Custom Celsius to Fahrenheit Convertor with custom input validation in JavaScript. Built using HTML,
+                  CSS and JavaScript.
+                </p>
+              </div>
+            </a>
+          </li>
+          <li class="project__item project-tile">
+            <a
+              class="project__link"
+              href="https://codepen.io/alexandracaulea/full/MWwgbEv"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Go to the live example"
+            >
+              <div class="project__img">
+                <img
+                  src="img/placeholder-img.png"
+                  data-src="img/fcc-tribute-page.png"
+                  class="lazyload"
+                  loading="lazy"
+                  width="400"
+                  height="250"
+                  alt="Screenshot of the tribute page project"
+                />
+              </div>
+              <div class="project__divider"></div>
+              <div class="project__information">
+                <h3 class="project__title">Tribute Page</h3>
+                <p class="project__details">
+                  A tribute page dedicated to Bertha Benz. Images are lazy loaded using Intersection Observer API. Built
+                  using HTML, CSS and JavaScript.
+                </p>
+              </div>
+            </a>
+          </li>
+          <li class="project__item project-tile">
+            <a
+              class="project__link"
+              href="https://codepen.io/alexandracaulea/full/zYGKdzZ"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Go to the live example"
+            >
+              <div class="project__img">
+                <img
+                  src="img/placeholder-img.png"
+                  data-src="img/fcc-technical-documentation-page.png"
+                  class="lazyload"
+                  loading="lazy"
+                  width="400"
+                  height="250"
+                  alt="Screenshot of technical documentation page project"
+                />
+              </div>
+              <div class="project__divider"></div>
+              <div class="project__information">
+                <h3 class="project__title">Technical Documentation Page</h3>
+                <p class="project__details">
+                  A responsive one page technical documentation page built using HTML, SASS and JavaScript.
+                </p>
+              </div>
+            </a>
+          </li>
+          <li hidden class="project__item project-tile project__item--hidden">
+            <a
+              class="project__link"
+              href="https://codepen.io/alexandracaulea/full/mdygyxV"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Go to the live example"
+            >
+              <div class="project__img">
+                <img
+                  src="img/placeholder-img.png"
+                  data-src="img/sign-up-landing-page.png"
+                  class="lazyload"
+                  loading="lazy"
+                  width="400"
+                  height="250"
+                  alt="Screenshot of the sign up landing page project"
+                />
+              </div>
+              <div class="project__divider"></div>
+              <div class="project__information">
+                <h3 class="project__title">Sign up Landing Page</h3>
+                <p class="project__details">
+                  A responsive landing page having fadein elements using Intersection Observer API. Built using HTML,
+                  SASS and JavaScript.
+                </p>
+              </div>
+            </a>
+          </li>
+          <li hidden class="project__item project-tile project__item--hidden">
+            <a
+              class="project__link"
+              href="https://codepen.io/alexandracaulea/full/xxGVPYd"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Go to the live example"
+            >
+              <div class="project__img">
+                <img
+                  src="img/placeholder-img.png"
+                  data-src="img/pricing-tables.png"
+                  class="lazyload"
+                  loading="lazy"
+                  width="400"
+                  height="250"
+                  alt="Screenshot of pricing tables project"
+                />
+              </div>
+              <div class="project__divider"></div>
+              <div class="project__information">
+                <h3 class="project__title">Pricing Tables</h3>
+                <p class="project__details">
+                  Responsive and custom pricing tables built using HTML, SASS and JavaScript.
+                </p>
+              </div>
+            </a>
+          </li>
+          <li hidden class="project__item project-tile project__item--hidden">
+            <a
+              class="project__link"
+              href="https://codepen.io/alexandracaulea/full/dyoOJKd"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Go to the live example"
+            >
+              <div class="project__img">
+                <img
+                  src="img/placeholder-img.png"
+                  data-src="img/four-cards-layout.png"
+                  class="lazyload"
+                  loading="lazy"
+                  width="400"
+                  height="250"
+                  alt="Screenshot of the four cards layout project"
+                />
+              </div>
+              <div class="project__divider"></div>
+              <div class="project__information">
+                <h3 class="project__title">Four Cards Layout</h3>
+                <p class="project__details">
+                  Responsive feature section with four card layout, built using HTML and SASS.
+                </p>
+              </div>
+            </a>
+          </li>
+          <li hidden class="project__item project-tile project__item--hidden">
+            <a
+              class="project__link"
+              href="https://codepen.io/alexandracaulea/full/VwYOPKM"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Go to the live example"
+            >
+              <div class="project__img">
+                <img
+                  src="img/placeholder-img.png"
+                  data-src="img/accept-component.png"
+                  class="lazyload"
+                  loading="lazy"
+                  width="400"
+                  height="250"
+                  alt="Screenshot of accept terms and conditions project"
+                />
+              </div>
+              <div class="project__divider"></div>
+              <div class="project__information">
+                <h3 class="project__title">Accept Terms and Conditions Component</h3>
+                <p class="project__details">
+                  Responsive component built using HTML, SASS and JavaScript.
+                </p>
+              </div>
+            </a>
+          </li>
+          <li hidden class="project__item project-tile project__item--hidden">
+            <a
+              class="project__link"
+              href="https://codepen.io/alexandracaulea/full/zYxmoop"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Go to the live example"
+            >
+              <div class="project__img">
+                <img
+                  src="img/placeholder-img.png"
+                  data-src="img/ui-tabs.png"
+                  class="lazyload"
+                  loading="lazy"
+                  width="400"
+                  height="250"
+                  alt="Screenshot of the tabs component project"
+                />
+              </div>
+              <div class="project__divider"></div>
+              <div class="project__information">
+                <h3 class="project__title">UI Tabs Component</h3>
+                <p class="project__details">
+                  Tab component built using HTML, SASS and JavaScript.
+                </p>
+              </div>
+            </a>
+          </li>
+          <li hidden class="project__item project-tile project__item--hidden">
+            <a
+              class="project__link"
+              href="https://codepen.io/alexandracaulea/full/QWwJgdM"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Go to the live example"
+            >
+              <div class="project__img">
+                <img
+                  src="img/placeholder-img.png"
+                  data-src="img/product-card.png"
+                  class="lazyload"
+                  loading="lazy"
+                  width="400"
+                  height="250"
+                  alt="Screenshot of the product card project"
+                />
+              </div>
+              <div class="project__divider"></div>
+              <div class="project__information">
+                <h3 class="project__title">Product Card</h3>
+                <p class="project__details">
+                  UI Product Card with modal window component built using HTML, SASS and JavaScript.
+                </p>
+              </div>
+            </a>
+          </li>
+        </ul>
+        <svg
+          width="938"
+          height="1086"
+          viewBox="0 0 938 1086"
+          xmlns="http://www.w3.org/2000/svg"
+          preserveAspectRatio="none"
+          style="position: absolute; top: 0; z-index: -1; top: 400px; right: 0;"
+        >
+          <defs>
+            <style>
+              @media (min-width: 320px) {
+                .polygon {
+                  --polygon--big--color: var(--light--green);
+                }
+              }
+              @media (min-width: 600px) {
+                .polygon {
+                  --polygon--big--color: var(--purple);
+                }
+              }
+              @media (min-width: 1100px) {
+                .polygon {
+                  --polygon--big--color: var(--light--blue);
+                }
+              }
+            </style>
+          </defs>
+          <path
+            class="polygon"
+            d="M7.4769e-06 543L940.5 0.00208641L940.5 1086L7.4769e-06 543Z"
+            fill="var(--polygon--big--color)"
+          />
+        </svg>
+        <button class="show-more-projects" aria-label="Show more projects">Show more</button>
+      </section>
+      <section class="contact" id="contact">
+        <svg
+          width="186"
+          height="132"
+          aria-hidden="true"
+          viewBox="0 0 186 132"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+          style="z-index: -1;"
+        >
+          <use xlink:href="#contact-circles"></use>
+        </svg>
+        <h2 class="contact__header">You can find me</h2>
+        <ul class="contact__links">
+          <li>
+            <a
+              class="contact__link"
+              href="mailto:alexandra.caulea@gmail.com?Subject='Hi%20Alexandra'"
+              rel="noopener noreferrer"
+              target="_blank"
+              aria-label="Email Alexandra Caulea"
+            >
+              <svg
+                aria-hidden="true"
+                focusable="false"
+                width="26"
+                height="18"
+                viewBox="0 0 26 18"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <use xlink:href="#email-icon"></use>
+              </svg>
+              <span class="screen-reader-text">Email</span>
+            </a>
+          </li>
+          <li>
+            <a
+              class="contact__link"
+              href="https://www.linkedin.com/in/alexandra-caulea/"
+              rel="noopener noreferrer"
+              target="_blank"
+              aria-label="Go to Alexandra Caulea's Linkedin profile"
+            >
+              <svg
+                aria-hidden="true"
+                focusable="false"
+                width="23"
+                height="20"
+                viewBox="0 0 23 20"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <use xlink:href="#linkedin-icon"></use>
+              </svg>
+              <span class="screen-reader-text">Linkedin</span>
+            </a>
+          </li>
+          <li>
+            <a
+              class="contact__link"
+              href="https://www.instagram.com/caulea_alexandra/"
+              rel="noopener noreferrer"
+              target="_blank"
+              aria-label="Go to Alexandra Caulea's Instagram account"
+            >
+              <svg
+                aria-hidden="true"
+                focusable="false"
+                width="21"
+                height="20"
+                viewBox="0 0 21 20"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <use xlink:href="#instagram-icon"></use>
+              </svg>
+              <span class="screen-reader-text">Instagram</span>
+            </a>
+          </li>
+          <li>
+            <a
+              class="contact__link"
+              href="https://codepen.io/alexandracaulea"
+              rel="noopener noreferrer"
+              target="_blank"
+              aria-label="Go to Alexandra Caulea's CodePen profile"
+            >
+              <svg
+                aria-hidden="true"
+                focusable="false"
+                width="22"
+                height="22"
+                fill="none"
+                viewBox="0 0 22 22"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <use xlink:href="#codepen-icon"></use>
+              </svg>
+              <span class="screen-reader-text">CodePen</span>
+            </a>
+          </li>
+          <li>
+            <a
+              class="contact__link"
+              href="https://github.com/alexandracaulea"
+              rel="noopener noreferrer"
+              target="_blank"
+              id="profile-link"
+              aria-label="Go to Alexandra Caulea's GitHub profile"
+            >
+              <svg
+                aria-hidden="true"
+                focusable="false"
+                width="20"
+                height="20"
+                viewBox="0 0 20 20"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <use xlink:href="#github-icon"></use>
+              </svg>
+              <span class="screen-reader-text">GitHub</span>
+            </a>
+          </li>
+        </ul>
+      </section>
+    </main>
+    <footer class="footer">
+      <p>Designed and coded by Alexandra Caulea</p>
+    </footer>
+    <svg aria-hidden="true" focusable="false" style="display: none;">
+      <symbol id="logo-icon" viewBox="0 0 157 37">
+        <path
+          d="M11.384 21.848C11.384 22.648 12.84 23.416 15.752 24.152C17.416 24.536 19.432 24.856 21.8 25.112C18.824 22.456 15.88 21.128 12.968 21.128C11.912 21.128 11.384 21.368 11.384 21.848ZM30.392 34.664C31.064 34.664 32.728 32.024 35.384 26.744C31.8 26.808 29.56 26.84 28.664 26.84C27.8 26.84 26.568 26.808 24.968 26.744C26.856 29.016 28.392 31.432 29.576 33.992C29.768 34.44 30.04 34.664 30.392 34.664ZM45.416 2.168C44.36 2.168 42.952 3.304 41.192 5.576C39.432 7.816 37.096 11 34.184 15.128C31.304 19.256 28.616 22.68 26.12 25.4C28.36 25.464 30.312 25.496 31.976 25.496C33.672 25.496 35.032 25.464 36.056 25.4C38.328 20.92 40.536 16.184 42.68 11.192C44.856 6.2 45.944 3.336 45.944 2.6C45.944 2.312 45.768 2.168 45.416 2.168ZM38.648 25.304L48.632 24.584C48.888 24.584 49.016 24.712 49.016 24.968C49.016 25.224 48.792 25.496 48.344 25.784C47.928 26.072 47.096 26.264 45.848 26.36C44.6 26.456 41.96 26.552 37.928 26.648C34.664 33.016 32.36 36.2 31.016 36.2C30.12 36.2 29.48 35.8 29.096 35C27.688 32.152 26.04 29.656 24.152 27.512L22.76 28.856C18.024 33.272 12.504 35.48 6.2 35.48C4.6 35.48 3.208 35.352 2.024 35.096C0.808 34.872 0.2 34.552 0.2 34.136C0.2 33.848 0.376 33.704 0.728 33.704C0.952 33.704 1.224 33.768 1.544 33.896C2.504 34.28 4.312 34.472 6.968 34.472C11.736 34.472 16.248 32.6 20.504 28.856C22.04 27.416 22.824 26.68 22.856 26.648C19.848 26.424 17.32 26.024 15.272 25.448C11.624 24.424 9.8 23.208 9.8 21.8C9.8 21.32 10.056 20.92 10.568 20.6C11.112 20.28 11.816 20.12 12.68 20.12C16.488 20.12 20.104 21.832 23.528 25.256C23.816 25.256 24.024 25.272 24.152 25.304C27 22.232 30.472 17.88 34.568 12.248C36.008 10.296 37.448 8.408 38.888 6.584C41.896 2.808 44.36 0.919998 46.28 0.919998C47.528 0.919998 48.152 1.464 48.152 2.552C48.152 3.288 47.112 6.168 45.032 11.192C42.984 16.184 40.856 20.888 38.648 25.304ZM60.3346 27.032C60.5586 26.872 60.7666 26.792 60.9586 26.792C61.1506 26.792 61.2466 26.904 61.2466 27.128V27.224C57.9186 29.976 55.3906 31.896 53.6626 32.984C51.4226 34.68 49.5346 35.528 47.9986 35.528C46.6546 35.528 45.9826 34.728 45.9826 33.128C45.9826 30.984 47.3586 27.816 50.1106 23.624C52.8946 19.4 56.0146 15.608 59.4706 12.248C62.9266 8.888 65.5346 7.208 67.2946 7.208C68.0946 7.208 68.4946 7.56 68.4946 8.264C68.4946 10.024 66.3826 12.936 62.1586 17C57.9666 21.032 53.8386 24.472 49.7746 27.32C48.5906 29.592 47.9986 31.32 47.9986 32.504C47.9986 33.688 48.4146 34.28 49.2466 34.28C50.0786 34.28 51.1666 33.8 52.5106 32.84C54.7826 31.496 56.9906 29.896 59.1346 28.04L60.3346 27.032ZM66.0946 8.744C64.7506 8.744 62.3666 10.68 58.9426 14.552C55.5186 18.424 52.6866 22.296 50.4466 26.168C54.1266 23.544 57.7266 20.344 61.2466 16.568C64.7666 12.76 66.5266 10.296 66.5266 9.176C66.5266 8.888 66.3826 8.744 66.0946 8.744ZM72.7276 27.032C72.9516 26.872 73.1596 26.792 73.3516 26.792C73.5436 26.792 73.6396 26.904 73.6396 27.128V27.224C70.3116 29.976 67.5436 32.04 65.3356 33.416C63.1276 34.792 61.1276 35.48 59.3356 35.48C57.8956 35.48 57.1756 34.776 57.1756 33.368C57.1756 31.288 58.2316 29.16 60.3436 26.984C62.4556 24.776 64.2316 23.672 65.6716 23.672C66.4716 23.672 66.8716 24.12 66.8716 25.016C66.7116 26.776 64.1836 29.144 59.2876 32.12V32.6C59.2876 33.656 59.8316 34.184 60.9196 34.184C62.0396 34.184 63.2396 33.816 64.5196 33.08C67.0156 31.608 69.3516 29.928 71.5276 28.04L72.7276 27.032ZM64.4236 25.16C63.7196 25.16 62.8076 25.752 61.6876 26.936C60.5996 28.12 59.8636 29.464 59.4796 30.968C61.0156 30.04 62.3116 29.064 63.3676 28.04C64.4236 26.984 64.9516 26.248 64.9516 25.832C64.9516 25.384 64.7756 25.16 64.4236 25.16ZM67.6786 35.048C67.4546 35.048 67.3426 34.936 67.3426 34.712C67.3426 34.584 67.5026 34.36 67.8226 34.04C68.6866 33.08 70.1746 31.784 72.2866 30.152C72.7026 28.264 72.9106 27.208 72.9106 26.984C72.9106 26.76 72.7986 26.568 72.5746 26.408C72.3826 26.248 72.2866 26.136 72.2866 26.072C72.2866 25.976 72.3826 25.832 72.5746 25.64C73.4386 25.032 74.0466 24.728 74.3986 24.728C74.8786 24.728 75.1186 24.984 75.1186 25.496C75.1186 25.752 74.8626 26.776 74.3506 28.568C78.3186 25.688 80.6226 24.248 81.2626 24.248C81.4546 24.248 81.6306 24.344 81.7906 24.536C81.9506 24.696 82.0306 24.84 82.0306 24.968C82.0306 25.032 81.2626 25.496 79.7266 26.36C78.1906 27.224 76.2866 28.456 74.0146 30.056C73.7906 31.08 73.6786 31.88 73.6786 32.456C73.6786 33.512 73.9506 34.04 74.4946 34.04C74.9106 34.04 76.2706 33.336 78.5746 31.928C80.4306 30.648 82.2706 29.272 84.0946 27.8L85.0066 27.032C85.2306 26.872 85.4226 26.792 85.5826 26.792C85.7746 26.792 85.8706 26.92 85.8706 27.176V27.224C79.3426 32.6 75.3266 35.288 73.8226 35.288C72.5426 35.288 71.9026 34.504 71.9026 32.936C71.9026 32.648 71.9346 32.184 71.9986 31.544C70.6546 32.536 69.4706 33.544 68.4466 34.568C68.0626 34.888 67.8066 35.048 67.6786 35.048ZM89.8981 29.24C89.7061 29.24 89.6101 29.176 89.6101 29.048C89.6101 28.888 89.7221 28.712 89.9461 28.52C91.0021 27.656 91.5301 26.872 91.5301 26.168C91.5301 25.72 91.1301 25.464 90.3301 25.4C88.8901 25.432 87.1621 26.472 85.1461 28.52C83.1621 30.568 82.1701 32.104 82.1701 33.128C82.1701 33.48 82.3621 33.656 82.7461 33.656C83.1621 33.656 83.7061 33.384 84.3781 32.84C84.9861 32.456 86.1221 31.496 87.7861 29.96C88.1701 29.576 88.5381 29.384 88.8901 29.384C89.3381 29.384 89.5621 29.592 89.5621 30.008C89.5621 30.168 89.5141 30.296 89.4181 30.392C89.3221 30.488 89.1461 30.696 88.8901 31.016C88.6341 31.304 88.4101 31.576 88.2181 31.832C87.6421 32.664 87.3541 33.208 87.3541 33.464C87.3541 34.104 87.6101 34.424 88.1221 34.424C88.7941 34.424 90.0581 33.816 91.9141 32.6C93.7701 31.352 95.4661 30.104 97.0021 28.856L99.3061 27.032C99.5301 26.872 99.7381 26.792 99.9301 26.792C100.122 26.792 100.218 26.904 100.218 27.128V27.224C97.7541 29.304 95.1461 31.256 92.3941 33.08C89.6741 34.904 87.8821 35.816 87.0181 35.816C85.9941 35.816 85.4821 35.272 85.4821 34.184C85.4821 33.928 85.5301 33.688 85.6261 33.464C85.7221 33.24 85.7701 33.08 85.7701 32.984C85.7701 32.888 85.7381 32.824 85.6741 32.792C85.5781 32.792 84.9541 33.224 83.8021 34.088C82.6821 34.952 81.6901 35.384 80.8261 35.384C79.9941 35.384 79.5781 34.936 79.5781 34.04C79.5781 33.144 80.1701 31.944 81.3541 30.44C82.5701 28.904 84.1861 27.512 86.2021 26.264C88.2181 25.016 90.1861 24.392 92.1061 24.392C92.5541 24.392 92.9221 24.504 93.2101 24.728C93.5301 24.952 93.6901 25.304 93.6901 25.784C93.6901 26.232 93.2261 26.92 92.2981 27.848C91.3701 28.776 90.5701 29.24 89.8981 29.24ZM118.786 27.176C112.034 32.808 107.858 35.624 106.258 35.624C105.33 35.624 104.866 35.24 104.866 34.472C104.866 33.704 105.202 32.792 105.874 31.736C106.578 30.68 107.266 29.752 107.938 28.952C108.642 28.12 108.994 27.624 108.994 27.464C108.994 27.304 108.946 27.224 108.85 27.224C105.874 29.208 104.098 30.424 103.522 30.872C102.978 31.32 102.066 32.056 100.786 33.08C99.5379 34.104 98.7219 34.744 98.3379 35C97.9539 35.256 97.5379 35.384 97.0899 35.384C96.6419 35.384 96.4179 35.192 96.4179 34.808C96.4179 34.36 97.3139 32.952 99.1059 30.584C100.834 28.216 101.698 26.888 101.698 26.6C101.698 26.536 101.634 26.504 101.506 26.504C101.41 26.504 100.034 27.48 97.3779 29.432L97.1859 28.712C99.4579 26.888 100.994 25.72 101.794 25.208C102.594 24.696 103.234 24.44 103.714 24.44C104.226 24.44 104.482 24.68 104.482 25.16C104.482 25.48 103.57 26.792 101.746 29.096C99.9539 31.368 99.0579 32.6 99.0579 32.792C99.0579 32.952 99.1059 33.032 99.2019 33.032C99.3299 33.032 101.154 31.752 104.674 29.192C108.226 26.6 110.386 25.304 111.154 25.304C111.378 25.304 111.586 25.4 111.778 25.592C112.002 25.752 112.114 25.912 112.114 26.072C112.114 26.456 111.266 27.736 109.57 29.912C107.874 32.056 107.026 33.272 107.026 33.56C107.026 33.848 107.218 33.992 107.602 33.992C108.018 33.992 108.882 33.56 110.194 32.696C112.594 31.128 114.802 29.512 116.818 27.848L117.874 26.984C118.098 26.824 118.306 26.744 118.498 26.744C118.69 26.744 118.786 26.84 118.786 27.032V27.176ZM121.27 28.136L122.806 25.784C122.71 25.752 122.614 25.736 122.518 25.736C121.174 25.736 119.414 26.76 117.238 28.808C115.062 30.856 113.974 32.296 113.974 33.128C113.974 33.352 114.102 33.464 114.358 33.464C115.158 33.464 116.374 32.792 118.006 31.448C119.638 30.072 120.726 28.968 121.27 28.136ZM131.974 27.224C125.318 32.6 121.286 35.288 119.878 35.288C119.334 35.288 119.062 34.968 119.062 34.328C119.062 33.688 119.302 32.616 119.782 31.112C119.782 31.08 119.75 31.064 119.686 31.064C116.006 34.104 113.558 35.624 112.341 35.624C111.509 35.624 111.093 35.32 111.093 34.712C111.093 33.368 112.534 31.4 115.414 28.808C118.326 26.216 120.646 24.92 122.374 24.92C122.598 24.92 122.838 25.08 123.094 25.4C123.83 24.312 127.958 18.408 135.478 7.688C136.278 6.696 136.918 6.2 137.398 6.2C137.91 6.2 138.166 6.36 138.166 6.68C138.166 7.48 135.414 11.256 129.91 18.008C127.862 20.568 125.974 23.24 124.246 26.024C122.55 28.776 121.702 30.872 121.702 32.312C121.702 32.92 121.878 33.224 122.23 33.224C122.646 33.224 123.382 32.856 124.438 32.12C126.614 30.552 128.518 29.112 130.15 27.8L131.062 27.032C131.286 26.872 131.494 26.792 131.686 26.792C131.878 26.792 131.974 26.904 131.974 27.128V27.224ZM141.687 27.032C141.911 26.872 142.119 26.792 142.311 26.792C142.503 26.792 142.599 26.904 142.599 27.128V27.224C140.199 29.144 137.831 30.952 135.495 32.648C133.159 34.312 131.447 35.144 130.359 35.144C129.559 35.144 129.159 34.712 129.159 33.848C129.159 32.984 129.543 32.12 130.311 31.256C131.079 30.392 131.831 29.64 132.567 29C133.335 28.36 133.719 27.944 133.719 27.752C133.719 27.528 133.591 27.288 133.335 27.032C133.111 26.744 132.919 26.552 132.759 26.456C132.215 27 131.031 27.992 129.207 29.432L129.015 28.712C131.031 27.112 132.199 26.04 132.519 25.496V25.064C132.519 24.264 132.599 23.72 132.759 23.432C132.919 23.144 133.303 22.744 133.911 22.232C134.519 21.72 134.935 21.464 135.159 21.464C135.383 21.464 135.575 21.544 135.735 21.704C135.927 21.864 136.023 22.024 136.023 22.184C136.023 22.344 135.959 22.536 135.831 22.76C135.735 22.952 135.623 23.128 135.495 23.288C135.399 23.416 135.255 23.592 135.063 23.816C134.871 24.008 134.743 24.152 134.679 24.248C134.647 24.312 134.599 24.44 134.535 24.632C134.503 24.824 134.407 24.984 134.247 25.112C134.087 25.24 134.007 25.4 134.007 25.592C134.007 25.784 134.135 26.216 134.391 26.888C134.647 27.528 134.775 28.008 134.775 28.328C134.775 28.616 134.183 29.336 132.999 30.488C131.815 31.608 131.223 32.52 131.223 33.224C131.223 33.608 131.399 33.8 131.751 33.8C132.199 33.8 133.031 33.4 134.247 32.6L134.823 32.216C136.903 30.776 138.855 29.32 140.679 27.848L141.687 27.032ZM146.617 29.24C146.425 29.24 146.329 29.176 146.329 29.048C146.329 28.888 146.441 28.712 146.665 28.52C147.721 27.656 148.249 26.872 148.249 26.168C148.249 25.72 147.849 25.464 147.049 25.4C145.609 25.432 143.881 26.472 141.865 28.52C139.881 30.568 138.889 32.104 138.889 33.128C138.889 33.48 139.081 33.656 139.465 33.656C139.881 33.656 140.425 33.384 141.097 32.84C141.705 32.456 142.841 31.496 144.505 29.96C144.889 29.576 145.257 29.384 145.609 29.384C146.057 29.384 146.281 29.592 146.281 30.008C146.281 30.168 146.233 30.296 146.137 30.392C146.041 30.488 145.865 30.696 145.609 31.016C145.353 31.304 145.129 31.576 144.937 31.832C144.361 32.664 144.073 33.208 144.073 33.464C144.073 34.104 144.329 34.424 144.841 34.424C145.513 34.424 146.777 33.816 148.633 32.6C150.489 31.352 152.185 30.104 153.721 28.856L156.025 27.032C156.249 26.872 156.457 26.792 156.649 26.792C156.841 26.792 156.937 26.904 156.937 27.128V27.224C154.473 29.304 151.865 31.256 149.113 33.08C146.393 34.904 144.601 35.816 143.737 35.816C142.713 35.816 142.201 35.272 142.201 34.184C142.201 33.928 142.249 33.688 142.345 33.464C142.441 33.24 142.489 33.08 142.489 32.984C142.489 32.888 142.457 32.824 142.393 32.792C142.297 32.792 141.673 33.224 140.521 34.088C139.401 34.952 138.409 35.384 137.545 35.384C136.713 35.384 136.297 34.936 136.297 34.04C136.297 33.144 136.889 31.944 138.073 30.44C139.289 28.904 140.905 27.512 142.921 26.264C144.937 25.016 146.905 24.392 148.825 24.392C149.273 24.392 149.641 24.504 149.929 24.728C150.249 24.952 150.409 25.304 150.409 25.784C150.409 26.232 149.945 26.92 149.017 27.848C148.089 28.776 147.289 29.24 146.617 29.24Z"
+          fill="var(--color--primary)"
+        />
+      </symbol>
+      <symbol id="email-icon" viewBox="0 0 26 18">
+        <path
+          d="M.905 0H24.43c.24 0 .47.086.64.24a.78.78 0 01.265.578v16.364a.78.78 0 01-.265.578c-.17.154-.4.24-.64.24H.905a.956.956 0 01-.64-.24.78.78 0 01-.265-.578V.818A.78.78 0 01.265.24c.17-.154.4-.24.64-.24zm11.207 10.464a.968.968 0 00.556.172c.2 0 .396-.06.555-.172l8.857-6.23-1.11-1.291-8.302 5.839-8.303-5.84-1.11 1.293 8.857 6.229z"
+          fill="var(--color--primary)"
+        />
+      </symbol>
+      <symbol id="linkedin-icon" viewBox="0 0 23 20">
+        <path
+          d="M20.608 0H1.915C.892 0 0 .656 0 1.558v16.728C0 19.192.892 20 1.914 20h18.689c1.027 0 1.797-.813 1.797-1.714V1.558C22.406.656 21.63 0 20.609 0zM6.944 16.671H3.734V7.762h3.21v8.909zM5.45 6.408h-.023c-1.027 0-1.692-.683-1.692-1.537 0-.87.682-1.537 1.732-1.537 1.05 0 1.693.662 1.716 1.537 0 .854-.666 1.537-1.733 1.537zm13.222 10.263h-3.21V11.8c0-1.167-.466-1.964-1.627-1.964-.888 0-1.413.535-1.646 1.057-.088.188-.111.443-.111.704v5.074H8.869V7.762h3.209v1.24c.467-.594 1.197-1.448 2.894-1.448 2.106 0 3.7 1.24 3.7 3.912v5.205z"
+          fill="var(--color--primary)"
+        />
+      </symbol>
+      <symbol id="instagram-icon" viewBox="0 0 21 20">
+        <path
+          d="M5.921 1.667A4.274 4.274 0 002.934 2.89a4.149 4.149 0 00-1.242 2.942v8.333a4.149 4.149 0 001.242 2.943 4.275 4.275 0 002.987 1.224h8.458a4.275 4.275 0 002.987-1.224 4.149 4.149 0 001.242-2.943V5.833a4.148 4.148 0 00-1.242-2.942 4.275 4.275 0 00-2.987-1.224H5.921zm0-1.667h8.458C17.636 0 20.3 2.625 20.3 5.833v8.333c0 3.209-2.664 5.834-5.92 5.834H5.92C2.664 20 0 17.375 0 14.166V5.833C0 2.625 2.664 0 5.921 0z"
+          fill="var(--color--primary)"
+        />
+        <path
+          d="M4.652 5.833c.251 0 .496-.073.705-.21.209-.138.371-.333.467-.561A1.233 1.233 0 005.55 3.7a1.286 1.286 0 00-1.383-.271c-.231.094-.43.254-.569.46a1.237 1.237 0 00.157 1.58 1.268 1.268 0 00.898.364zM10.15 6.667a3.42 3.42 0 00-1.88.561c-.556.367-.99.887-1.246 1.496a3.288 3.288 0 00-.192 1.926c.13.647.452 1.24.926 1.707a3.4 3.4 0 001.732.912 3.43 3.43 0 001.955-.19 3.373 3.373 0 001.518-1.227 3.3 3.3 0 00.57-1.852 3.313 3.313 0 00-.992-2.356 3.413 3.413 0 00-2.39-.977zm0-1.667a5.13 5.13 0 012.82.843 5.017 5.017 0 011.869 2.244c.384.913.484 1.918.289 2.889-.196.97-.68 1.86-1.39 2.56a5.099 5.099 0 01-2.598 1.368 5.145 5.145 0 01-2.932-.285 5.06 5.06 0 01-2.278-1.841A4.948 4.948 0 015.075 10c0-1.326.535-2.598 1.487-3.536A5.114 5.114 0 0110.15 5z"
+          fill="var(--color--primary)"
+        />
+      </symbol>
+      <symbol id="codepen-icon" viewBox="0 0 22 22">
+        <path
+          d="M10.275 13.354c-.752-.509-1.51-1.01-2.262-1.519-.098-.068-.168-.072-.27 0l-1.909 1.283c1.532 1.02 4.577 3.054 4.577 3.054V13.53c0-.06-.076-.136-.136-.176zM8.009 10.247c.759-.499 1.514-1.004 2.264-1.515a.369.369 0 00.138-.262V5.93S7.366 7.95 5.83 8.973c.673.45 1.31.88 1.953 1.299.05.032.167.013.225-.024zM11.68 8.71c.776.525 1.555 1.046 2.338 1.562a.212.212 0 00.188 0l1.953-1.3-4.57-3.056v2.62a.235.235 0 00.09.173zM11.103 9.741a.259.259 0 00-.232.009c-.237.147-.465.304-.696.459l-1.245.835 1.907 1.27a.304.304 0 00.308.005l1.915-1.277s-1.673-1.113-1.957-1.3zM5.353 10.073v1.945l1.454-.974-1.454-.971z"
+          fill="var(--color--primary)"
+        />
+        <path
+          d="M11 0C4.925 0 0 4.925 0 11s4.925 11 11 11 11-4.925 11-11S17.075 0 11 0zm6.826 13.013c0 .284-.13.485-.369.643-2.02 1.342-4.038 2.688-6.054 4.036-.288.193-.549.184-.835-.007-2.003-1.342-4.01-2.679-6.022-4.01-.251-.167-.373-.371-.373-.674V9.085c0-.302.124-.508.374-.674 2.01-1.332 4.024-2.67 6.027-4.011.286-.191.545-.196.832-.004 2.015 1.349 4.032 2.694 6.053 4.036.23.152.366.341.366.621v3.96z"
+          fill="var(--color--primary)"
+        />
+        <path
+          d="M13.959 11.846c-.74.502-1.483.999-2.23 1.49-.118.078-.141.163-.14.304v2.521l4.567-3.045-1.892-1.27c-.113-.08-.191-.078-.305 0zM16.598 12.015V10.07l-1.453.976 1.453.97z"
+          fill="var(--color--primary)"
+        />
+      </symbol>
+      <symbol id="github-icon" viewBox="0 0 20 20">
+        <path
+          d="M10 0C4.478 0 0 4.594 0 10.255c0 4.53 2.866 8.37 6.84 9.727a.787.787 0 00.169.018c.37 0 .513-.272.513-.509 0-.245-.009-.888-.013-1.745a4.57 4.57 0 01-1.009.12c-1.924 0-2.362-1.495-2.362-1.495-.455-1.183-1.111-1.5-1.111-1.5-.87-.612-.005-.63.062-.63h.005c1.004.09 1.531 1.063 1.531 1.063.5.875 1.17 1.12 1.768 1.12.395-.008.785-.1 1.143-.268.089-.66.348-1.111.634-1.37-2.22-.26-4.554-1.139-4.554-5.067 0-1.12.388-2.036 1.027-2.75-.103-.26-.447-1.304.098-2.715a.832.832 0 01.223-.022c.362 0 1.179.139 2.527 1.076a9.295 9.295 0 015.009 0c1.348-.937 2.165-1.076 2.527-1.076a.832.832 0 01.223.022c.545 1.411.2 2.456.098 2.715.639.718 1.027 1.634 1.027 2.75 0 3.937-2.34 4.803-4.567 5.058.357.317.679.942.679 1.897 0 1.37-.014 2.478-.014 2.813 0 .24.139.513.51.513.06 0 .119-.006.178-.018 3.977-1.357 6.839-5.2 6.839-9.727C20 4.594 15.522 0 10 0z"
+          fill="var(--color--primary)"
+        />
+      </symbol>
+      <symbol id="project-circles" viewBox="0 0 362 169">
+        <ellipse cx="7.233" cy="23.872" rx="7.233" ry="7.021" fill="var(--ellipses--color)" />
+        <ellipse cx="7.233" cy="51.956" rx="7.233" ry="7.021" fill="var(--ellipses--color)" />
+        <ellipse cx="7.233" cy="80.041" rx="7.233" ry="7.021" fill="var(--ellipses--color)" />
+        <ellipse cx="7.233" cy="108.125" rx="7.233" ry="7.021" fill="var(--ellipses--color)" />
+        <ellipse cx="7.233" cy="136.209" rx="7.233" ry="7.021" fill="var(--ellipses--color)" />
+        <ellipse cx="122.963" cy="26.68" rx="7.233" ry="7.021" fill="var(--ellipses--color)" />
+        <ellipse cx="122.963" cy="54.764" rx="7.233" ry="7.021" fill="var(--ellipses--color)" />
+        <ellipse cx="122.963" cy="82.849" rx="7.233" ry="7.021" fill="var(--ellipses--color)" />
+        <ellipse cx="122.963" cy="110.934" rx="7.233" ry="7.021" fill="var(--ellipses--color)" />
+        <ellipse cx="122.963" cy="139.018" rx="7.233" ry="7.021" fill="var(--ellipses--color)" />
+        <ellipse cx="84.387" cy="29.489" rx="7.233" ry="7.021" fill="var(--ellipses--color)" />
+        <ellipse cx="84.387" cy="57.573" rx="7.233" ry="7.021" fill="var(--ellipses--color)" />
+        <ellipse cx="84.387" cy="85.657" rx="7.233" ry="7.021" fill="var(--ellipses--color)" />
+        <ellipse cx="84.387" cy="113.742" rx="7.233" ry="7.021" fill="var(--ellipses--color)" />
+        <ellipse cx="84.387" cy="141.826" rx="7.233" ry="7.021" fill="var(--ellipses--color)" />
+        <ellipse cx="200.116" cy="32.297" rx="7.233" ry="7.021" fill="var(--ellipses--color)" />
+        <ellipse cx="200.116" cy="60.382" rx="7.233" ry="7.021" fill="var(--ellipses--color)" />
+        <ellipse cx="200.116" cy="88.465" rx="7.233" ry="7.021" fill="var(--ellipses--color)" />
+        <ellipse cx="200.116" cy="116.55" rx="7.233" ry="7.021" fill="var(--ellipses--color)" />
+        <ellipse cx="200.116" cy="144.634" rx="7.233" ry="7.021" fill="var(--ellipses--color)" />
+        <ellipse cx="277.27" cy="7.021" rx="7.233" ry="7.021" fill="var(--ellipses--color)" />
+        <ellipse cx="277.27" cy="35.106" rx="7.233" ry="7.021" fill="var(--ellipses--color)" />
+        <ellipse cx="277.27" cy="63.19" rx="7.233" ry="7.021" fill="var(--ellipses--color)" />
+        <ellipse cx="277.27" cy="91.275" rx="7.233" ry="7.021" fill="var(--ellipses--color)" />
+        <ellipse cx="277.27" cy="119.358" rx="7.233" ry="7.021" fill="var(--ellipses--color)" />
+        <ellipse cx="277.27" cy="147.443" rx="7.233" ry="7.021" fill="var(--ellipses--color)" />
+        <ellipse cx="45.81" cy="9.829" rx="7.233" ry="7.021" fill="var(--ellipses--color)" />
+        <ellipse cx="45.81" cy="37.914" rx="7.233" ry="7.021" fill="var(--ellipses--color)" />
+        <ellipse cx="45.81" cy="65.998" rx="7.233" ry="7.021" fill="var(--ellipses--color)" />
+        <ellipse cx="45.81" cy="94.082" rx="7.233" ry="7.021" fill="var(--ellipses--color)" />
+        <ellipse cx="45.81" cy="122.167" rx="7.233" ry="7.021" fill="var(--ellipses--color)" />
+        <ellipse cx="45.81" cy="150.252" rx="7.233" ry="7.021" fill="var(--ellipses--color)" />
+        <ellipse cx="161.54" cy="12.639" rx="7.233" ry="7.021" fill="var(--ellipses--color)" />
+        <ellipse cx="161.54" cy="40.722" rx="7.233" ry="7.021" fill="var(--ellipses--color)" />
+        <ellipse cx="161.54" cy="68.807" rx="7.233" ry="7.021" fill="var(--ellipses--color)" />
+        <ellipse cx="161.54" cy="96.891" rx="7.233" ry="7.021" fill="var(--ellipses--color)" />
+        <ellipse cx="161.54" cy="124.976" rx="7.233" ry="7.021" fill="var(--ellipses--color)" />
+        <ellipse cx="161.54" cy="153.06" rx="7.233" ry="7.021" fill="var(--ellipses--color)" />
+        <ellipse cx="354.423" cy="15.447" rx="7.233" ry="7.021" fill="var(--ellipses--color)" />
+        <ellipse cx="354.423" cy="43.53" rx="7.233" ry="7.021" fill="var(--ellipses--color)" />
+        <ellipse cx="354.423" cy="71.615" rx="7.233" ry="7.021" fill="var(--ellipses--color)" />
+        <ellipse cx="354.423" cy="99.699" rx="7.233" ry="7.021" fill="var(--ellipses--color)" />
+        <ellipse cx="354.423" cy="127.784" rx="7.233" ry="7.021" fill="var(--ellipses--color)" />
+        <ellipse cx="354.423" cy="155.869" rx="7.233" ry="7.021" fill="var(--ellipses--color)" />
+        <ellipse cx="238.693" cy="18.255" rx="7.233" ry="7.021" fill="var(--ellipses--color)" />
+        <ellipse cx="238.693" cy="46.34" rx="7.233" ry="7.021" fill="var(--ellipses--color)" />
+        <ellipse cx="238.693" cy="74.423" rx="7.233" ry="7.021" fill="var(--ellipses--color)" />
+        <ellipse cx="238.693" cy="102.508" rx="7.233" ry="7.021" fill="var(--ellipses--color)" />
+        <ellipse cx="238.693" cy="130.592" rx="7.233" ry="7.021" fill="var(--ellipses--color)" />
+        <ellipse cx="238.693" cy="158.677" rx="7.233" ry="7.021" fill="var(--ellipses--color)" />
+        <ellipse cx="315.846" cy="21.063" rx="7.233" ry="7.021" fill="var(--ellipses--color)" />
+        <ellipse cx="315.846" cy="49.148" rx="7.233" ry="7.021" fill="var(--ellipses--color)" />
+        <ellipse cx="315.846" cy="77.232" rx="7.233" ry="7.021" fill="var(--ellipses--color)" />
+        <ellipse cx="315.846" cy="105.316" rx="7.233" ry="7.021" fill="var(--ellipses--color)" />
+        <ellipse cx="315.846" cy="133.401" rx="7.233" ry="7.021" fill="var(--ellipses--color)" />
+        <ellipse cx="315.846" cy="161.485" rx="7.233" ry="7.021" fill="var(--ellipses--color)" />
+      </symbol>
+      <symbol id="contact-circles" viewBox="0 0 186 132">
+        <circle cx="5.46146" cy="20.7536" r="5.46146" fill="var(--purple)" fill-opacity="0.4" />
+        <circle cx="5.46146" cy="42.5995" r="5.46146" fill="var(--purple)" fill-opacity="0.4" />
+        <circle cx="5.46146" cy="64.4452" r="5.46146" fill="var(--purple)" fill-opacity="0.4" />
+        <circle cx="5.46146" cy="86.2912" r="5.46146" fill="var(--purple)" fill-opacity="0.4" />
+        <circle cx="5.46146" cy="108.137" r="5.46146" fill="var(--purple)" fill-opacity="0.4" />
+        <circle cx="63.7173" cy="25.1228" r="5.46146" fill="var(--purple)" fill-opacity="0.4" />
+        <circle cx="63.7173" cy="46.9685" r="5.46146" fill="var(--purple)" fill-opacity="0.4" />
+        <circle cx="63.7173" cy="68.8145" r="5.46146" fill="var(--purple)" fill-opacity="0.4" />
+        <circle cx="63.7173" cy="90.6602" r="5.46146" fill="var(--purple)" fill-opacity="0.4" />
+        <circle cx="63.7173" cy="112.506" r="5.46146" fill="var(--purple)" fill-opacity="0.4" />
+        <circle cx="121.973" cy="5.46146" r="5.46146" fill="var(--purple)" fill-opacity="0.4" />
+        <circle cx="121.973" cy="27.3075" r="5.46146" fill="var(--purple)" fill-opacity="0.4" />
+        <circle cx="121.973" cy="49.1531" r="5.46146" fill="var(--purple)" fill-opacity="0.4" />
+        <circle cx="121.973" cy="70.9991" r="5.46146" fill="var(--purple)" fill-opacity="0.4" />
+        <circle cx="121.973" cy="92.8448" r="5.46146" fill="var(--purple)" fill-opacity="0.4" />
+        <circle cx="121.973" cy="114.691" r="5.46146" fill="var(--purple)" fill-opacity="0.4" />
+        <circle cx="34.5891" cy="9.83076" r="5.46146" fill="var(--purple)" fill-opacity="0.4" />
+        <circle cx="34.5891" cy="31.6764" r="5.46146" fill="var(--purple)" fill-opacity="0.4" />
+        <circle cx="34.5891" cy="53.5224" r="5.46146" fill="var(--purple)" fill-opacity="0.4" />
+        <circle cx="34.5891" cy="75.368" r="5.46146" fill="var(--purple)" fill-opacity="0.4" />
+        <circle cx="34.5891" cy="97.214" r="5.46146" fill="var(--purple)" fill-opacity="0.4" />
+        <circle cx="34.5891" cy="119.06" r="5.46146" fill="var(--purple)" fill-opacity="0.4" />
+        <circle cx="180.228" cy="12.0154" r="5.46146" fill="var(--purple)" fill-opacity="0.4" />
+        <circle cx="180.228" cy="33.861" r="5.46146" fill="var(--purple)" fill-opacity="0.4" />
+        <circle cx="180.228" cy="55.707" r="5.46146" fill="var(--purple)" fill-opacity="0.4" />
+        <circle cx="180.228" cy="77.5527" r="5.46146" fill="var(--purple)" fill-opacity="0.4" />
+        <circle cx="180.228" cy="99.3987" r="5.46146" fill="var(--purple)" fill-opacity="0.4" />
+        <circle cx="180.228" cy="121.244" r="5.46146" fill="var(--purple)" fill-opacity="0.4" />
+        <circle cx="92.8445" cy="14.1997" r="5.46146" fill="var(--purple)" fill-opacity="0.4" />
+        <circle cx="92.8445" cy="36.0456" r="5.46146" fill="var(--purple)" fill-opacity="0.4" />
+        <circle cx="92.8445" cy="57.8916" r="5.46146" fill="var(--purple)" fill-opacity="0.4" />
+        <circle cx="92.8445" cy="79.7373" r="5.46146" fill="var(--purple)" fill-opacity="0.4" />
+        <circle cx="92.8445" cy="101.583" r="5.46146" fill="var(--purple)" fill-opacity="0.4" />
+        <circle cx="92.8445" cy="123.429" r="5.46146" fill="var(--purple)" fill-opacity="0.4" />
+        <circle cx="151.1" cy="16.3843" r="5.46146" fill="var(--purple)" fill-opacity="0.4" />
+        <circle cx="151.1" cy="38.2303" r="5.46146" fill="var(--purple)" fill-opacity="0.4" />
+        <circle cx="151.1" cy="60.076" r="5.46146" fill="var(--purple)" fill-opacity="0.4" />
+        <circle cx="151.1" cy="81.9219" r="5.46146" fill="var(--purple)" fill-opacity="0.4" />
+        <circle cx="151.1" cy="103.768" r="5.46146" fill="var(--purple)" fill-opacity="0.4" />
+        <circle cx="151.1" cy="125.614" r="5.46146" fill="var(--purple)" fill-opacity="0.4" />
+      </symbol>
+    </svg>
+    <script src="js/app.js"></script>
+    <!-- <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script> -->
+  </body>
+</html>
