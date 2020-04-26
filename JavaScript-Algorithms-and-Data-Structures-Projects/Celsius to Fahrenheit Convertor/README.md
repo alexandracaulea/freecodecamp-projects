@@ -7,4 +7,4 @@ Simple client side convertor.
 - Create UI elements
 - Display the temperature
 
-### [Live example on CodePen](https://codepen.io/alexandracaulea/full/rNVKLor)
+[Live example on CodePen](https://codepen.io/alexandracaulea/full/rNVKLor)
