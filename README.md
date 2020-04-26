@@ -9,3 +9,7 @@ Projects that I've completed while going though the freeCodeCamp Curriculum.
 3. Build a Product Landing Page - [Live example on CodePen](https://codepen.io/alexandracaulea/full/QWbObOQ)
 4. Build a Technical Documentation Page - [Live example on CodePen](https://codepen.io/alexandracaulea/full/zYGKdzZ)
 5. Build a Personal Portfolio Webpage - [Live example on CodePen](https://codepen.io/alexandracaulea/full/ZEbLxRG)
+
+## JavaScript Algorithms and Data Structures Certification
+
+1. Celsius to Fahrenheit Convertor - [Live example on CodePen](https://codepen.io/alexandracaulea/full/rNVKLor)
