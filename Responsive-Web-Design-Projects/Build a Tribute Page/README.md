@@ -26,3 +26,5 @@ My tribute page is dedicated to **Bertha Benz**.
 This project was built using HTML, CSS and JavaScript and the images are lazy loaded using Intersection Observer API.
 
 [Live Example on CodePen](https://codepen.io/alexandracaulea/full/MWwgbEv).
+
+![Tribute Page](img/gif/tribute-page.gif)
