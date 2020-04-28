@@ -30,9 +30,9 @@ In Figma I've created three frames: for mobile, tablet and desktop and tried dif
 
 After I've finished with Figma I've decided to start working on the project and experiment more in the browser.
 
-I've enjoyed so much working on this project so I've decided to also implement it on my website.
+I enjoyed so much working on this project so I've decided to also implement it on my website.
 
-In this project I've experiment with CSS Grid, Lazy Loading images with fallback and with JavaScript in general.
+In this project I've experimented with CSS Grid, Lazy Loading images with fallback and with JavaScript in general.
 
 [Live Example on CodePen](https://codepen.io/alexandracaulea/full/ZEbLxRG).
 
