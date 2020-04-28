@@ -1,14 +1,14 @@
-# Build a Tribute Page Requirements
+# Build a Tribute Page Project
 
 ## Objective
 
 1. Build a CodePen app that is functionally similar to [this](https://codepen.io/freeCodeCamp/full/zNqgVx).
-2. I can use HTML, JavaScript, and CSS to complete this project.
+2. I can use HTML, CSS, and JavaScript to complete this project.
 
-## User Stories:
+## User Stories
 
-1. My tribute page has an element with a corresponding `id="main"`, which contains the content of the page.
-2. My tribute page has a corresponding `h1` element with the `id="title"`, which contains the title of the page: **Bertha Benz**.
+1. My tribute page has an element with a corresponding `id="main"`, which contains the title of the page.
+2. My tribute page has a corresponding `h1` element with the `id="title"`, which contains the title of the page: Bertha Benz.
 3. My tribute page contains an element with the id `id="img-div"`. Inside of it there is an image with a corresponding `id="image"` and a caption with the corresponding `id="img-caption"` that contains text describing the image.
 4. The `article` element that has the `id="tribute-info"` attribute, contains text describing the story of Bertha Benz.
 5. Inside the `footer` element I've added a link with the `id="tribute-link"` which links to the Wikipedia that contains additional information about Bertha Benz.
@@ -21,7 +21,7 @@ In order to test the requirements I've use [this](https://cdn.freecodecamp.org/t
 
 ## [Solution](https://codepen.io/alexandracaulea/full/MWwgbEv)
 
-My tribute page is dedicated to **Bertha Benz**.
+My tribute page is dedicated to [**Bertha Benz**](https://en.wikipedia.org/wiki/Bertha_Benz).
 
 This project was built using HTML, CSS and JavaScript and the images are lazy loaded using Intersection Observer API.
 
