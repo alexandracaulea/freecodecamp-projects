@@ -1,0 +1,55 @@
+:root {
+  --font--normal: 400;
+  --font--bold: 700;
+  --nav--height: 215px;
+  --primary--background--color: #fdfdfd;
+  --navigation--background--color: #fdfdfd;
+  --text--color: #000839;
+  --focus--highlight: #ffbd69;
+  --select--highlight: #5f6caf;
+  --accent--color: #5f6caf;
+  --nav--list--color: #5f6caf;
+  --primary--color: #856c8b;
+  --secondary--color: #856c8b;
+  --tertiary--color: #515d97;
+  --project--background--color: #fff;
+  --project--hover: #fff;
+  --project--item--shadow: rgba(36, 37, 38, 0.13);
+  --project--divider--color--default: #856c8b;
+  --project--divider--color--one: #bbded6;
+  --project--divider--color--two: #856c8b;
+  --project--divider--color--three: #b9cced;
+  --project--link--color--one: #5f6caf;
+  --project--link--color--two: #fff;
+  --shape--one--color: #ffb6b9;
+  --shape--two--color: #bbded6;
+  --shape--three--color: #d4ebd0;
+  --shape--four--color: #d15a7c;
+  --shape--five--color: #f7d695;
+  --shape--six--color: #fbf4f9;
+  --shape--seven--color: #b9cced;
+  --shape--eight--color: #f6e7e6;
+  --shape--nine--color: #f6e5f5;
+  --polygon--big--color--default: #f4f4f4;
+  --polygon--big--color--one: #bbded6;
+  --polygon--big--color--two: #856c8b;
+  --polygon--big--color--three: #b9cced;
+  --radial--gradient--default: radial-gradient(
+    ellipse farthest-corner at 0 -140%,
+    #f6e7e6 0%,
+    hsla(166, 35%, 80%, 0.7) 70%,
+    hsla(166, 35%, 80%, 0.5) 70%
+  );
+  --radial--gradient--one: radial-gradient(
+    ellipse farthest-corner at 0 -140%,
+    #f6e7e6 0%,
+    hsla(288, 13%, 48%, 0.4) 70%,
+    hsla(288, 13%, 48%, 0.2) 70%
+  );
+  --radial--gradient--two: radial-gradient(
+    ellipse farthest-corner at 0 -140%,
+    #f6e7e6 0%,
+    hsla(224, 91%, 50%, 0.233) 70%,
+    hsla(224, 91%, 50%, 0.171) 70%
+  );
+}

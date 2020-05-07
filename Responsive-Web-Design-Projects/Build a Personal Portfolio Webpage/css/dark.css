@@ -1,0 +1,65 @@
+:root {
+  --primary--background--color: #222831;
+  --text--color: #fdfbfb;
+  --select--highlight: #fdfbfb1f;
+  --navigation--background--color: #222831;
+  --accent--color: #fdfbfb;
+  --nav--list--color: #222831;
+  --nav--link--hover: #af8baf;
+  --tertiary--color: #515d97;
+  --nav--secondary--color: #323a47;
+  --primary--color: #eeeeee;
+  --secondary--color: --primary--background--color;
+  --project--background--color: #252628;
+  --project--hover: #060607;
+  --project--item--shadow: rgba(36, 37, 38, 0.44);
+  --project--divider--color--one: #584153;
+  --project--divider--color--two: #3a485e;
+  --project--divider--color--three: hsla(224, 87%, 35%, 0.534);
+  --project--link--text: #fdfbfb;
+  --project--link--color--one: #fff;
+  --project--link--color--two: #222831;
+  --shape--one--color: #af8baf;
+  --shape--two--color: #584153;
+  --shape--three--color: #162a42;
+  --shape--four--color: #6983aa;
+  --shape--five--color: #3a485e;
+  --shape--six--color: #30475e;
+  --shape--seven--color: #222831;
+  --shape--eight--color: #00454a;
+  --shape--nine--color: #3c6562;
+  --polygon--big--color--one: #584153;
+  --polygon--big--color--two: hsla(217, 24%, 30%, 0.1);
+  --polygon--big--color--three: hsla(224, 91%, 50%, 0.171);
+  --radial--gradient--default: radial-gradient(
+    ellipse farthest-corner at 0 -140%,
+    #584153 0%,
+    hsla(313, 15%, 30%, 0.7) 70%,
+    hsla(313, 15%, 30%, 0.5) 70%
+  );
+  --radial--gradient--one: radial-gradient(
+    ellipse farthest-corner at 0 -140%,
+    #3a485e 0%,
+    hsla(217, 24%, 30%, 0.4) 70%,
+    hsla(217, 24%, 30%, 0.2) 70%
+  );
+  --radial--gradient--two: radial-gradient(
+    ellipse farthest-corner at 0 -140%,
+    #f6e7e6 0%,
+    hsla(224, 91%, 50%, 0.233) 70%,
+    hsla(224, 91%, 50%, 0.171) 70%
+  );
+}
+
+.show-navigation .nav__list {
+  border: 2px solid var(--nav--secondary--color);
+}
+
+.show-navigation .nav__link:hover {
+  background-color: var(--nav--secondary--color);
+  color: currentColor;
+}
+
+.nav__link:hover {
+  color: var(--nav--link--hover);
+}
