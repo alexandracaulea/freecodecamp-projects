@@ -15,3 +15,10 @@ Projects that I've completed while going though the [freeCodeCamp](https://www.f
 ## JavaScript Algorithms and Data Structures Certification
 
 1. Celsius to Fahrenheit Convertor - [Code on GitHub](https://github.com/alexandracaulea/freecodecamp-projects/tree/master/JavaScript-Algorithms-and-Data-Structures-Projects/Celsius%20to%20Fahrenheit%20Convertor) - [Live example on CodePen](https://codepen.io/alexandracaulea/full/rNVKLor)
+
+### My editor and extensions
+
+I've used [VS Code](https://code.visualstudio.com/) as the editor.
+As the extensions, I've used [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) and [Sass](https://marketplace.visualstudio.com/items?itemName=Syler.sass-indented).
+
+For the "Build a Technical Documentation Page" project I've used [Parcel](https://parceljs.org/) to bundle the code.
