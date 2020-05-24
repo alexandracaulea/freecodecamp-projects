@@ -26,3 +26,5 @@ I've used [VS Code](https://code.visualstudio.com/) as the editor.
 As the extensions, I've used [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) and [Sass](https://marketplace.visualstudio.com/items?itemName=Syler.sass-indented).
 
 For the "Build a Technical Documentation Page" project I've used [Parcel](https://parceljs.org/) to bundle the code.
+
+![RWD certification](RWD-certification.gif)
