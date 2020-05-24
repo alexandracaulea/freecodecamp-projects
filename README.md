@@ -12,7 +12,11 @@ Projects that I've completed while going though the [freeCodeCamp](https://www.f
 
 [See credential](https://www.freecodecamp.org/certification/alexandracaulea/responsive-web-design)
 
-## JavaScript Algorithms and Data Structures Certification
+## JavaScript Algorithms and Data Structures
+
+1. Palindrome Checker - [Code on GitHub](https://github.com/alexandracaulea/freecodecamp-projects/blob/master/JavaScript-Algorithms-and-Data-Structures-Projects/Palindrome%20Checker/palindrome-checker.js)
+
+### Additional Projects
 
 1. Celsius to Fahrenheit Convertor - [Code on GitHub](https://github.com/alexandracaulea/freecodecamp-projects/tree/master/JavaScript-Algorithms-and-Data-Structures-Projects/Celsius%20to%20Fahrenheit%20Convertor) - [Live example on CodePen](https://codepen.io/alexandracaulea/full/rNVKLor)
 
