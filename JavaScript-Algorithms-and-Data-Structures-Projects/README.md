@@ -1,8 +1,11 @@
 # JavaScript Algorithms and Data Structures Projects
 
+In this section I had the chance to build the following projects:
+
+1. Palindrome Checker - [See the code](https://github.com/alexandracaulea/freecodecamp-projects/blob/master/JavaScript-Algorithms-and-Data-Structures-Projects/Palindrome%20Checker/palindrome-checker.js)
+
 In this section I will build the following projects:
 
-- Palindrome Checker
 - Roman Numeral Converter
 - Caesars Cipher
 - Telephone Number Validator
