@@ -16,9 +16,12 @@ Projects that I've completed while going though the [freeCodeCamp](https://www.f
 
 1. Palindrome Checker - [Code on GitHub](https://github.com/alexandracaulea/freecodecamp-projects/blob/master/JavaScript-Algorithms-and-Data-Structures-Projects/Palindrome%20Checker/palindrome-checker.js)
 
-### Additional Projects
+### Additional Projects\*
+
+_\*not required by the curriculum - I've built them just for practice._
 
 1. Celsius to Fahrenheit Convertor - [Code on GitHub](https://github.com/alexandracaulea/freecodecamp-projects/tree/master/JavaScript-Algorithms-and-Data-Structures-Projects/Celsius%20to%20Fahrenheit%20Convertor) - [Live example on CodePen](https://codepen.io/alexandracaulea/full/rNVKLor)
+2. Practice writing tests in Jest - I've took all the challenges from the [Intermediate Algorithm Scripting Challenges](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/intermediate-algorithm-scripting/) that I've already solved and wrote tests in [Jest](https://jestjs.io/) - [See the repo](https://github.com/alexandracaulea/Intermediate-Algorithm-Scripting).
 
 ### My editor and extensions
 
