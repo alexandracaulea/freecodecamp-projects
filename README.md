@@ -18,7 +18,9 @@ Projects that I've completed while going though the [freeCodeCamp](https://www.f
 
 - _In addition, I've implemented an UI, added more JavaScript functionality and I've integrated unit testing and end to end testing._ - [Link to the repository](https://github.com/alexandracaulea/palindrome-checker) - [Live example on GitHub](https://alexandracaulea.github.io/palindrome-checker/)
 
-2. Roman Numeral Converter - [Code on GitHub](https://github.com/alexandracaulea/freecodecamp-projects/tree/master/JavaScript-Algorithms-and-Data-Structures-Projects/Roman%20Numeral%20Converter)
+2. Roman Numeral Converter - [Code on GitHub](https://github.com/alexandracaulea/freecodecamp-projects/blob/master/JavaScript-Algorithms-and-Data-Structures-Projects/Roman%20Numeral%20Converter/roman-numeral-converter.js)
+
+3. Caesars Cipher - [Code on GitHub](https://github.com/alexandracaulea/freecodecamp-projects/blob/master/JavaScript-Algorithms-and-Data-Structures-Projects/Caesars%20Cipher/caesars-cipher.js)
 
 ### Additional Projects\*
 

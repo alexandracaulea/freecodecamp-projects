@@ -6,11 +6,12 @@ In this section I had the chance to build the following projects:
 
 - _In addition, I've implemented an UI, added more JavaScript functionality and I've integrated unit testing and end to end testing._ - [Link to the repository](https://github.com/alexandracaulea/palindrome-checker) - [Live example on GitHub](https://alexandracaulea.github.io/palindrome-checker/)
 
-2. Roman Numeral Converter
+2. Roman Numeral Converter [See the code](https://github.com/alexandracaulea/freecodecamp-projects/blob/master/JavaScript-Algorithms-and-Data-Structures-Projects/Roman%20Numeral%20Converter/roman-numeral-converter.js)
+
+3. Caesars Cipher [See the code](https://github.com/alexandracaulea/freecodecamp-projects/blob/master/JavaScript-Algorithms-and-Data-Structures-Projects/Caesars%20Cipher/caesars-cipher.js)
 
 In this section I will build the following projects:
 
-- Caesars Cipher
 - Telephone Number Validator
 - Cash Register
 
