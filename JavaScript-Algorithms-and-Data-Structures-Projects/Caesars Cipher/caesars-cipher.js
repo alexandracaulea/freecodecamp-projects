@@ -17,7 +17,7 @@ function rot13(str) {
       }
     }
 
-    if (arrFromStr[i] !== undefined && arrFromStr[i].match(/\W/g)) {
+    if (arrFromStr[i].match(/\W/g)) {
       decode += arrFromStr[i];
     }
   }
