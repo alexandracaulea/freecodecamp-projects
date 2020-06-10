@@ -2,7 +2,7 @@
 
 Projects that I've completed while going though the [freeCodeCamp](https://www.freecodecamp.org/) Curriculum.
 
-## Responsive Web Design Projects
+## [Responsive Web Design Projects](https://github.com/alexandracaulea/freecodecamp-projects/tree/master/Responsive-Web-Design-Projects)
 
 1. Build a Tribute Page - [Code on GitHub](https://github.com/alexandracaulea/freecodecamp-projects/tree/master/Responsive-Web-Design-Projects/Build%20a%20Tribute%20Page) - [Live example on CodePen](https://codepen.io/alexandracaulea/full/MWwgbEv)
 2. Build a Survey Form - [Code on GitHub](https://github.com/alexandracaulea/freecodecamp-projects/tree/master/Responsive-Web-Design-Projects/Build%20a%20Survey%20Form) - [Live example on CodePen](https://codepen.io/alexandracaulea/full/YzXdNbY)
@@ -12,7 +12,7 @@ Projects that I've completed while going though the [freeCodeCamp](https://www.f
 
 [See credential](https://www.freecodecamp.org/certification/alexandracaulea/responsive-web-design)
 
-## JavaScript Algorithms and Data Structures Projects
+## [JavaScript Algorithms and Data Structures Projects](https://github.com/alexandracaulea/freecodecamp-projects/tree/master/JavaScript-Algorithms-and-Data-Structures-Projects)
 
 1. Palindrome Checker - [Code on GitHub](https://github.com/alexandracaulea/freecodecamp-projects/blob/master/JavaScript-Algorithms-and-Data-Structures-Projects/Palindrome%20Checker/palindrome-checker.js)
 
