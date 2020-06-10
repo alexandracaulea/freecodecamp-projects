@@ -10,9 +10,10 @@ In this section I had the chance to build the following projects:
 
 3. Caesars Cipher [See the code](https://github.com/alexandracaulea/freecodecamp-projects/blob/master/JavaScript-Algorithms-and-Data-Structures-Projects/Caesars%20Cipher/caesars-cipher.js)
 
-In this section I will build the following projects:
+4. Telephone Number Validator [See the code](https://github.com/alexandracaulea/freecodecamp-projects/blob/master/JavaScript-Algorithms-and-Data-Structures-Projects/Telephone%20Number%20Validator/telephone-number-validator.js)
 
-- Telephone Number Validator
+In this section I will build the following project:
+
 - Cash Register
 
 ## Additional projects _not required by the curriculum_:
