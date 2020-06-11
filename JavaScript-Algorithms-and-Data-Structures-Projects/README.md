@@ -12,9 +12,7 @@ In this section I had the chance to build the following projects:
 
 4. Telephone Number Validator [See the code](https://github.com/alexandracaulea/freecodecamp-projects/blob/master/JavaScript-Algorithms-and-Data-Structures-Projects/Telephone%20Number%20Validator/telephone-number-validator.js)
 
-In this section I will build the following project:
-
-- Cash Register
+5. Cash Register [See the code](https://github.com/alexandracaulea/freecodecamp-projects/blob/master/JavaScript-Algorithms-and-Data-Structures-Projects/Cash%20Register/cash-register.js)
 
 ## Additional projects _not required by the curriculum_:
 
