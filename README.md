@@ -24,6 +24,8 @@ Projects that I've completed while going though the [freeCodeCamp](https://www.f
 
 4. Telephone Number Validator - [Code on GitHub](https://github.com/alexandracaulea/freecodecamp-projects/blob/master/JavaScript-Algorithms-and-Data-Structures-Projects/Telephone%20Number%20Validator/telephone-number-validator.js)
 
+5. Cash Register - [Code on GitHub](https://github.com/alexandracaulea/freecodecamp-projects/blob/master/JavaScript-Algorithms-and-Data-Structures-Projects/Cash%20Register/cash-register.js)
+
 ### Additional Projects\*
 
 _\*not required by the curriculum - I've built them just for practice._
