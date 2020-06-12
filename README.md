@@ -26,6 +26,8 @@ Projects that I've completed while going though the [freeCodeCamp](https://www.f
 
 5. Cash Register - [Code on GitHub](https://github.com/alexandracaulea/freecodecamp-projects/blob/master/JavaScript-Algorithms-and-Data-Structures-Projects/Cash%20Register/cash-register.js)
 
+[See credential](https://www.freecodecamp.org/certification/alexandracaulea/javascript-algorithms-and-data-structures)
+
 ### Additional Projects\*
 
 _\*not required by the curriculum - I've built them just for practice._
