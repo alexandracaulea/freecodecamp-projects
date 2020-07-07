@@ -20,13 +20,13 @@ Projects that I've completed while going though the [freeCodeCamp](https://www.f
 
 2. Roman Numeral Converter - [Code on GitHub](https://github.com/alexandracaulea/freecodecamp-projects/blob/master/JavaScript-Algorithms-and-Data-Structures-Projects/Roman%20Numeral%20Converter/roman-numeral-converter.js)
 
+- _I've also implemented an UI, added more JavaScript functionality and unit testing._ - [Link to the repository](https://github.com/alexandracaulea/roman-converter) - [Live example on GitHub](https://alexandracaulea.github.io/roman-converter/)
+
 3. Caesars Cipher - [Code on GitHub](https://github.com/alexandracaulea/freecodecamp-projects/blob/master/JavaScript-Algorithms-and-Data-Structures-Projects/Caesars%20Cipher/caesars-cipher.js)
 
 4. Telephone Number Validator - [Code on GitHub](https://github.com/alexandracaulea/freecodecamp-projects/blob/master/JavaScript-Algorithms-and-Data-Structures-Projects/Telephone%20Number%20Validator/telephone-number-validator.js)
 
 5. Cash Register - [Code on GitHub](https://github.com/alexandracaulea/freecodecamp-projects/blob/master/JavaScript-Algorithms-and-Data-Structures-Projects/Cash%20Register/cash-register.js)
-
-[See credential](https://www.freecodecamp.org/certification/alexandracaulea/javascript-algorithms-and-data-structures)
 
 ### Additional Projects\*
 
@@ -35,9 +35,4 @@ _\*not required by the curriculum - I've built them just for practice._
 1. Celsius to Fahrenheit Convertor - [Code on GitHub](https://github.com/alexandracaulea/freecodecamp-projects/tree/master/JavaScript-Algorithms-and-Data-Structures-Projects/Celsius%20to%20Fahrenheit%20Convertor) - [Live example on CodePen](https://codepen.io/alexandracaulea/full/rNVKLor)
 2. Practice writing tests in Jest - I've took all the challenges from the [Intermediate Algorithm Scripting Challenges](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/intermediate-algorithm-scripting/) that I've already solved and wrote tests in [Jest](https://jestjs.io/) - [See the repo](https://github.com/alexandracaulea/Intermediate-Algorithm-Scripting).
 
-### My editor and extensions
-
-I've used [VS Code](https://code.visualstudio.com/) as the editor.
-As the extensions, I've used [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) and [Sass](https://marketplace.visualstudio.com/items?itemName=Syler.sass-indented).
-
-For the "Build a Technical Documentation Page" project I've used [Parcel](https://parceljs.org/) to bundle the code.
+[See credential](https://www.freecodecamp.org/certification/alexandracaulea/javascript-algorithms-and-data-structures)
