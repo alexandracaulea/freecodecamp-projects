@@ -28,7 +28,7 @@ body {
   align-content: center;
   margin: 0;
   padding: 1rem;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: var(--darkBlue);
   background-color: #fdfdfd;
 }
@@ -59,32 +59,32 @@ select {
 }
 
 button,
-[type="button"],
-[type="submit"] {
+[type='button'],
+[type='submit'] {
   -webkit-appearance: button;
 }
 
 button::-moz-focus-inner,
-[type="button"]::-moz-focus-inner,
-[type="submit"]::-moz-focus-inner {
+[type='button']::-moz-focus-inner,
+[type='submit']::-moz-focus-inner {
   border-style: none;
   padding: 0;
 }
 
 button:-moz-focusring,
-[type="button"]:-moz-focusring,
-[type="submit"]:-moz-focusring {
+[type='button']:-moz-focusring,
+[type='submit']:-moz-focusring {
   outline: 1px dotted ButtonText;
 }
 
-[type="checkbox"],
-[type="radio"] {
+[type='checkbox'],
+[type='radio'] {
   box-sizing: border-box;
   padding: 0;
 }
 
-[type="number"]::-webkit-inner-spin-button,
-[type="number"]::-webkit-outer-spin-button {
+[type='number']::-webkit-inner-spin-button,
+[type='number']::-webkit-outer-spin-button {
   height: auto;
 }
 
@@ -155,7 +155,7 @@ label {
 .progressbar__step:nth-child(3)::after,
 .progressbar__step:nth-child(4)::after,
 .progressbar__step:nth-child(5)::after {
-  content: "";
+  content: '';
   position: absolute;
   left: -100%;
   top: 12px;
@@ -224,7 +224,7 @@ label {
   color: var(--errClr);
 }
 
-[role="alert"] {
+[role='alert'] {
   display: block;
 }
 
@@ -234,7 +234,7 @@ label {
   grid-template-columns: repeat(2, 150px);
 }
 
-.survey__panel__period [type="radio"] {
+.survey__panel__period [type='radio'] {
   opacity: 0;
   display: block;
   width: 150px;
@@ -255,29 +255,22 @@ label {
 }
 
 .survey__panel__period label:hover,
-.survey__panel__period [type="radio"]:checked + label {
+.survey__panel__period [type='radio']:checked + label {
   border-color: var(--intenseBlue);
 }
 
-.review__period [type="radio"]:checked + label {
+.review__period [type='radio']:checked + label {
   border: var(--intenseBlue);
 }
 
+.radiobox,
 .radiobox:checked,
-.radiobox:not(:checked),
-.radiobox,
-.radiobox:not(:checked),
-.radiobox,
 .radiobox:not(:checked),
 .checkbox,
 .checkbox:not(:checked) {
   opacity: 0;
 }
 
-.radiobox:checked + label,
-.radiobox:not(:checked) + label,
-.radiobox:checked + label,
-.radiobox:not(:checked) + label,
 .radiobox:checked + label,
 .radiobox:not(:checked) + label,
 .checkbox:checked + label,
@@ -288,13 +281,9 @@ label {
 
 .radiobox:checked + label:before,
 .radiobox:not(:checked) + label:before,
-.radiobox:checked + label:before,
-.radiobox:not(:checked) + label:before,
-.radiobox:checked + label:before,
-.radiobox:not(:checked) + label:before,
 .checkbox:checked + label:before,
 .checkbox:not(:checked) + label:before {
-  content: "";
+  content: '';
   position: absolute;
   left: 0;
   top: 0;
@@ -306,12 +295,8 @@ label {
 }
 
 .radiobox:checked + label:after,
-.radiobox:not(:checked) + label:after,
-.radiobox:checked + label:after,
-.radiobox:not(:checked) + label:after,
-.radiobox:checked + label:after,
 .radiobox:not(:checked) + label:after {
-  content: "";
+  content: '';
   width: 8px;
   height: 8px;
   background-color: var(--intenseBlue);
@@ -323,15 +308,11 @@ label {
 }
 
 .radiobox:not(:checked) + label:after,
-.radiobox:not(:checked) + label:after,
-.radiobox:not(:checked) + label:after,
 .checkbox:not(:checked) + label:after {
   opacity: 0;
   transform: scale(0);
 }
 
-.radiobox:checked + label:after,
-.radiobox:checked + label:after,
 .radiobox:checked + label:after,
 .checkbox:checked + label:after {
   opacity: 1;
@@ -384,7 +365,7 @@ label {
 
 .checkbox:checked + label:after,
 .checkbox:not(:checked) + label:after {
-  content: "";
+  content: '';
   position: absolute;
   left: 4px;
   top: 7px;
@@ -409,9 +390,9 @@ label {
   font-size: 0.95rem;
 }
 
-.survey__panel__personaldetails [name="name"],
-.survey__panel__personaldetails [name="email"],
-.survey__panel__personaldetails [name="country"] {
+.survey__panel__personaldetails [name='name'],
+.survey__panel__personaldetails [name='email'],
+.survey__panel__personaldetails [name='country'] {
   width: 100%;
   padding: 0.6rem 0.75rem;
   border: 2px solid var(--lightBlue);
@@ -419,7 +400,7 @@ label {
   -webkit-appearance: none;
 }
 
-.survey__panel__personaldetails [name="age"] {
+.survey__panel__personaldetails [name='age'] {
   padding: 0.6rem 0.75rem;
   border: 2px solid var(--lightBlue);
   -webkit-appearance: none;
