@@ -12,6 +12,8 @@ Projects that I've completed while going though the [freeCodeCamp](https://www.f
 
 [See credential](https://www.freecodecamp.org/certification/alexandracaulea/responsive-web-design)
 
+<br>
+
 ## [JavaScript Algorithms and Data Structures Projects](https://github.com/alexandracaulea/freecodecamp-projects/tree/master/JavaScript-Algorithms-and-Data-Structures-Projects)
 
 1. Palindrome Checker - [Code on GitHub](https://github.com/alexandracaulea/freecodecamp-projects/blob/master/JavaScript-Algorithms-and-Data-Structures-Projects/Palindrome%20Checker/palindrome-checker.js)
@@ -27,6 +29,12 @@ Projects that I've completed while going though the [freeCodeCamp](https://www.f
 4. Telephone Number Validator - [Code on GitHub](https://github.com/alexandracaulea/freecodecamp-projects/blob/master/JavaScript-Algorithms-and-Data-Structures-Projects/Telephone%20Number%20Validator/telephone-number-validator.js)
 
 5. Cash Register - [Code on GitHub](https://github.com/alexandracaulea/freecodecamp-projects/blob/master/JavaScript-Algorithms-and-Data-Structures-Projects/Cash%20Register/cash-register.js)
+
+<br>
+
+## [Front End Libraries Projects](https://www.freecodecamp.org/learn/front-end-libraries/front-end-libraries-projects/)
+
+1. Build a Random Quote Machine - [Code on GitHub](https://github.com/alexandracaulea/inspirational-quote-generator) - [Live example on Netlify](https://inspirational-quote-generator.netlify.app/)
 
 ### Additional Projects\*
 
