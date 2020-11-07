@@ -36,6 +36,10 @@ Projects that I've completed while going though the [freeCodeCamp](https://www.f
 
 1. Build a Random Quote Machine - [Code on GitHub](https://github.com/alexandracaulea/inspirational-quote-generator) - [Live example on Netlify](https://inspirational-quote-generator.netlify.app/)
 
+2. Build a Markdown Previewer - [Code on GitHub](https://github.com/alexandracaulea/markdown-previewer) - [Live example on Netlify](https://markdown-previewer-project.netlify.app/)
+
+<br>
+
 ### Additional Projects\*
 
 _\*not required by the curriculum - I've built them just for practice._
