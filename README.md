@@ -32,14 +32,6 @@ Projects that I've completed while going though the [freeCodeCamp](https://www.f
 
 <br>
 
-## [Front End Libraries Projects](https://www.freecodecamp.org/learn/front-end-libraries/front-end-libraries-projects/)
-
-1. Build a Random Quote Machine - [Code on GitHub](https://github.com/alexandracaulea/inspirational-quote-generator) - [Live example on Netlify](https://inspirational-quote-generator.netlify.app/)
-
-2. Build a Markdown Previewer - [Code on GitHub](https://github.com/alexandracaulea/markdown-previewer) - [Live example on Netlify](https://markdown-previewer-project.netlify.app/)
-
-<br>
-
 ### Additional Projects\*
 
 _\*not required by the curriculum - I've built them just for practice._
@@ -48,3 +40,11 @@ _\*not required by the curriculum - I've built them just for practice._
 2. Practice writing tests in Jest - I've took all the challenges from the [Intermediate Algorithm Scripting Challenges](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/intermediate-algorithm-scripting/) that I've already solved and wrote tests in [Jest](https://jestjs.io/) - [See the repo](https://github.com/alexandracaulea/Intermediate-Algorithm-Scripting).
 
 [See credential](https://www.freecodecamp.org/certification/alexandracaulea/javascript-algorithms-and-data-structures)
+
+<br>
+
+## [Front End Libraries Projects](https://www.freecodecamp.org/learn/front-end-libraries/front-end-libraries-projects/)
+
+1. Build a Random Quote Machine - [Code on GitHub](https://github.com/alexandracaulea/inspirational-quote-generator) - [Live example on Netlify](https://inspirational-quote-generator.netlify.app/)
+
+2. Build a Markdown Previewer - [Code on GitHub](https://github.com/alexandracaulea/markdown-previewer) - [Live example on Netlify](https://markdown-previewer-project.netlify.app/)
