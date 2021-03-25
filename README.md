@@ -48,3 +48,9 @@ _\*not required by the curriculum - I've built them just for practice._
 1. Build a Random Quote Machine - [Code on GitHub](https://github.com/alexandracaulea/inspirational-quote-generator) - [Live example on Netlify](https://inspirational-quote-generator.netlify.app/)
 
 2. Build a Markdown Previewer - [Code on GitHub](https://github.com/alexandracaulea/markdown-previewer) - [Live example on Netlify](https://markdown-previewer-project.netlify.app/)
+
+<br>
+
+## [Take Home Projects](https://www.freecodecamp.org/learn/coding-interview-prep/#take-home-projects)
+
+1. Build a Wikipedia Viewer - [Code on GitHub](https://github.com/alexandracaulea/wikipedia-viewer) - [Live example on Netlify](https://wikipedia-viewer-project.netlify.app/)
